@@ -1,0 +1,64 @@
+<h2>Accessibilité : partiellement conforme</h2>
+<p>(WEBSITE_NAME) s'engage à rendre son site internet accessible conformément à l'article 47 de la loi n° 2005-102 du 11 février 2005. À cette fin, il met en œuvre la stratégie et les actions détaillées dans son schéma pluriannuel. Cette déclaration d'accessibilité s'applique au site (WEBSITE_NAME).</p>
+<p>Le site (WEBSITE_NAME) est partiellement conforme avec le RGAA 4.1 de niveau Double-A (AA) en raison des non-conformités et des dérogations énumérées ci-dessous.</p>
+<p>L'audit de conformité réalisé révèle que 70,77&nbsp;% des critères RGAA 4.1 de niveau Double-A (AA) sont respectés.</p>
+
+<h2>Contenus non accessibles</h2>
+<p>Les contenus listés ci-dessous ne sont pas accessibles pour les raisons suivantes.</p>
+<h3>Non-conformités</h3>
+<p>Plusieurs éléments de non-conformité sont décrits dans ce document, dont certains récurrents sur plusieurs pages :</p>
+<ul>
+<li>Certaines images à vocation informative ne possèdent pas de description détaillée.</li>
+<li>Des informations sont transmises uniquement par la couleur, sans alternative textuelle ou visuelle.</li>
+<li>Le contraste entre le texte et l'arrière-plan est insuffisant sur certains éléments.</li>
+<li>Le contraste de certains éléments graphiques porteurs d'information est insuffisant.</li>
+<li>Les vidéos présentes ne disposent pas systématiquement d'une transcription ou d'une audiodescription.</li>
+<li>Certains tableaux de données sont dépourvus de titre.</li>
+<li>Certains liens ne sont pas explicites hors contexte.</li>
+<li>Certains scripts ne sont pas accessibles aux technologies d'assistance.</li>
+<li>Certains scripts ne sont pas utilisables à la fois au clavier et à la souris.</li>
+<li>Le code source de certaines pages contient des erreurs de validité.</li>
+<li>Le titre de certaines pages n'est pas pertinent.</li>
+<li>Certaines balises sont utilisées à des fins purement visuelles, ce qui nuit à la structure sémantique.</li>
+<li>La présentation repose partiellement sur des attributs HTML au lieu de feuilles de style CSS.</li>
+<li>Le zoom à 200&nbsp;% rend difficile la lecture de certains contenus textuels.</li>
+<li>Les couleurs de fond et de police ne sont pas toujours correctement définies dans les feuilles de style.</li>
+<li>Le focus clavier n'est pas toujours visible lors de la navigation.</li>
+<li>Les propriétés d'espacement du texte ne respectent pas toujours les exigences minimales d'accessibilité.</li>
+<li>Certains documents bureautiques disponibles en téléchargement ne sont pas accessibles.</li>
+<li>Le contenu ne s'adapte pas toujours correctement au changement d'orientation de l'écran (portrait/paysage).</li>
+</ul>
+
+<h3>Dérogations pour charge disproportionnée</h3>
+<p>Pas de dérogation identifiée.</p>
+
+<h3>Contenus non soumis à l'obligation d'accessibilité</h3>
+<p>Pas de contenus non soumis à l'obligation d'accessibilité.</p>
+
+<h2>Établissement de cette déclaration d'accessibilité</h2>
+<p>Cette déclaration a été établie le 16/04/2025 et a été mise à jour le 15/07/2025.</p>
+<p><strong>Technologies utilisées pour la réalisation du site web :</strong></p>
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+</ul>
+<p><strong>Tests des pages web :</strong></p>
+<ul>
+<li>Mozilla Firefox et lecteur d'écran NVDA</li>
+<li>Safari et VoiceOver</li>
+</ul>
+<p><strong>Outils utilisés lors de l'évaluation :</strong></p>
+<ul>
+<li>WAVE</li>
+<li>axe DevTools</li>
+<li>Colour Contrast Analyser</li>
+</ul>
+
+<h2>Retour d'information et contact</h2>
+<p>Si vous n'arrivez pas à accéder à un contenu ou à un service, vous pouvez contacter le responsable du site web pour être orienté vers une alternative accessible ou obtenir le contenu sous une autre forme.</p>
+<p>Contacter le webmaster du site (WEBSITE_NAME) à l'adresse suivante : (WEBSITE_EMAIL).</p>
+
+<h2>Voies de recours</h2>
+<p>Cette procédure est à utiliser dans le cas suivant : vous avez signalé au responsable du site internet un défaut d'accessibilité qui vous empêche d'accéder à un contenu ou à un des services du portail et vous n'avez pas obtenu de réponse satisfaisante.</p>
+<p>Vous pouvez signaler le problème au Défenseur des droits (<a href="https://www.defenseurdesdroits.fr/" rel="noopener noreferrer" target="_blank">www.defenseurdesdroits.fr</a>) ou contacter le délégué du Défenseur des droits dans votre région.</p>

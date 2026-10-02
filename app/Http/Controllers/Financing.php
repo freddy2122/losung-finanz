@@ -5,13 +5,12 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\FinancingFormRequest;
 use Illuminate\Support\Facades\Mail;
-use App\Mail\Financing as FinancingMail;
-use App\Mail\FinancingAcknowledgment;
+use App\Mail\Financing as FinancingAdminMail;
 use App\Mail\FinancingPreAccepted;
 use App\Mail\FinancingCompletedAdmin;
-use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Log;
 
 class Financing extends Controller
 {
@@ -28,7 +27,8 @@ class Financing extends Controller
         $financing = $request->get('financing');
         $email = $financing['email'] ?? null;
 
-        $requestId = 'JEM-' . date('Ymd') . '-' . strtoupper(substr(uniqid(), -5));
+        $requestPrefix = defined('LOAN_REFERENCE_PREFIX') ? LOAN_REFERENCE_PREFIX : 'FIN';
+        $requestId = $requestPrefix . '-' . date('Ymd') . '-' . strtoupper(substr(uniqid(), -5));
         $financing['reference'] = $requestId;
 
         if ($email) {
@@ -51,12 +51,11 @@ class Financing extends Controller
                     $createdAt &&
                     (time() - $createdAt < 120)
                 ) {
-                    return redirect()->route('thankyou')->with([
-                        'nom' => ucfirst(strtolower($financing['prenom'] ?? '')) . ' ' . ucfirst(strtolower($financing['nom'] ?? '')),
-                        'montant' => $financing['montant_du_pret'] ?? '',
-                        'duree' => $financing['duree_totale_du_pret'] ?? '',
-                        'reference' => $requestId,
-                    ]);
+                    return $this->redirectToThankYou(
+                        $existing['financing'] ?? $financing,
+                        $existing['request_id'] ?? $requestId,
+                        empty($existing['additional_information']['submitted_at'] ?? null)
+                    );
                 }
             }
         }
@@ -67,6 +66,7 @@ class Financing extends Controller
 
         $montant = floatval(str_replace([' ', ','], ['', '.'], $financing['montant_du_pret'] ?? 0));
         $duree = intval($financing['duree_totale_du_pret'] ?? 0);
+        $currencyCode = loan_currency_code_for_locale(app()->getLocale());
 
         $taux_annuel = floatval(str_replace('%', '', TEAG));
         $taux_mensuel = $taux_annuel / 12 / 100;
@@ -85,50 +85,31 @@ class Financing extends Controller
             $montant_total = 0;
         }
 
-        $financing['montant_total_a_rembourser'] = number_format($montant_total, 2, '.', ' ') . ' €';
-        $financing['mensualite_estimee'] = number_format($mensualite, 2, '.', ' ') . ' €';
+        $financing['devise_du_pret'] = $currencyCode;
+        $financing['montant_total_a_rembourser'] = format_loan_money($montant_total, $currencyCode, 2);
+        $financing['mensualite_estimee'] = format_loan_money($mensualite, $currencyCode, 2);
         $financing['taux_TEAG'] = TEAG;
-
-        $normalize = fn($str) => mb_strtolower(trim(iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $str)));
-
-        $userCity = $normalize($financing['adresse_ville'] ?? '');
-        $apiCity = $normalize($geoCity ?? '');
-        $userCountry = $normalize($financing['adresse_pays'] ?? '');
-        $apiCountry = $normalize($geoCountry ?? '');
-
-        $isLocationMatch = ($userCity && $apiCity && str_contains($apiCity, $userCity))
-            || ($userCountry && $apiCountry && str_contains($apiCountry, $userCountry));
-
-        $adresse_declaree = trim(($financing['adresse_complete'] ?? '') . ', ' . ($financing['adresse_pays'] ?? ''));
-        $geo_detectee = trim(($geoCity ?? '') . ', ' . ($geoRegion ?? '') . ', ' . ($geoCountry ?? ''));
 
         $data = [
             'name' => ($financing['nom'] ?? '') . ' ' . ($financing['prenom'] ?? ''),
-            'subject' => translate(329),
+            'subject' => 'Nouvelle demande de prêt',
             'request_id' => $requestId,
-            'adresse_declaree' => $adresse_declaree ?: 'Adresse non renseignée',
-            'geo_detectee' => $geo_detectee ?: 'Localisation inconnue',
-            'location_match' => $isLocationMatch,
             'financing' => $financing,
-            'geo' => [
-                'city' => $geoCity,
-                'region' => $geoRegion,
-                'country' => $geoCountry,
-            ],
+        ];
+
+        $preliminaryInformation = [
+            'job' => $request->input('job'),
+            'income' => $request->input('income'),
         ];
 
         $payload = [
             'request_id' => $requestId,
-            'status' => 'pending',
+            'status' => 'pending_documents',
             'created_at' => now()->toDateTimeString(),
             'language' => app()->getLocale(),
             'financing' => $financing,
-            'geo' => [
-                'city' => $geoCity,
-                'region' => $geoRegion,
-                'country' => $geoCountry,
-            ],
             'mail_data' => $data,
+            'preliminary_information' => $preliminaryInformation,
         ];
 
         Storage::disk('local')->put(
@@ -136,123 +117,50 @@ class Financing extends Controller
             json_encode($payload, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
         );
 
-        $pdf = Pdf::loadView('contracts.loan-contract', [
-            'financing' => $financing,
-        ]);
+        $adresseDeclaree = trim(($financing['adresse_complete'] ?? '') . ', ' . ($financing['adresse_pays'] ?? ''));
+        $geoDetectee = trim(($geoCity ?? '') . ($geoCity && $geoCountry ? ', ' : '') . ($geoCountry ?? ''));
 
-        $nomFichier = __('loan_contract_filename')
-            . '-'
-            . Str::slug(($financing['prenom'] ?? '') . ' ' . ($financing['nom'] ?? ''))
-            . '-'
-            . Str::slug($financing['montant_du_pret'] ?? 'montant')
-            . '-eur-'
-            . date('Ymd')
-            . '.pdf';
-
-        $this->sendMailWithRetry(
-            (new FinancingMail($data))->attachData($pdf->output(), $nomFichier),
+        $adminMailSent = $this->sendMailWithRetry(
+            (new FinancingAdminMail([
+                'subject' => 'Nouvelle demande de financement - ' . $requestId,
+                'financing' => $financing,
+                'adresse_declaree' => $adresseDeclaree,
+                'geo_detectee' => $geoDetectee,
+                'location_match' => true,
+                'request_id' => $requestId,
+                'client_language' => app()->getLocale(),
+                'preliminary_information' => $preliminaryInformation,
+            ]))->locale('fr'),
             SITE_EMAIL
         );
 
+        if (!$adminMailSent) {
+            Log::error('Admin financing notification failed for request ' . $requestId);
+        }
+
         if (!empty($financing['email'])) {
+            $mailData = [
+                'name' => trim(($financing['prenom'] ?? '') . ' ' . ($financing['nom'] ?? '')),
+                'request_id' => $requestId,
+                'financing' => $financing,
+                'complete_documents_url' => route('site.complete_financing', [
+                    'language' => app()->getLocale(),
+                    'reference' => $requestId,
+                ]),
+            ];
+
             $this->sendMailWithRetry(
-                new FinancingAcknowledgment($data),
+                new FinancingPreAccepted($mailData),
                 $financing['email']
             );
         }
 
-        return redirect()->route('thankyou')->with([
-            'nom' => ucfirst(strtolower($financing['prenom'] ?? '')) . ' ' . ucfirst(strtolower($financing['nom'] ?? '')),
-            'montant' => $financing['montant_du_pret'] ?? '',
-            'duree' => $financing['duree_totale_du_pret'] ?? '',
-            'reference' => $requestId,
-        ]);
-    }
-
-    public function approve($requestId)
-    {
-        $relativePath = 'loan_requests/' . $requestId . '.json';
-        $privatePath = storage_path('app/private/' . $relativePath);
-        $classicPath = storage_path('app/' . $relativePath);
-
-        if (file_exists($privatePath)) {
-            $content = file_get_contents($privatePath);
-            $savePath = $privatePath;
-        } elseif (file_exists($classicPath)) {
-            $content = file_get_contents($classicPath);
-            $savePath = $classicPath;
-        } else {
-            return response('❌ Fichier introuvable : ' . $relativePath);
-        }
-
-        $payload = json_decode($content, true);
-
-        $language = $payload['language'] ?? 'fr';
-        app()->setLocale($language);
-
-        if (!$payload || empty($payload['financing'])) {
-            return response('❌ JSON invalide ou données manquantes');
-        }
-
-        if (($payload['status'] ?? null) === 'approved') {
-            return response('✅ Déjà approuvé');
-        }
-
-        $financing = $payload['financing'];
-        $financing['reference'] = $payload['request_id'] ?? $requestId;
-        $mailData = $payload['mail_data'] ?? [];
-
-        if (empty($financing['email'])) {
-            return response('❌ Email client introuvable');
-        }
-
-        $mailData = array_merge([
-            'name' => ($financing['prenom'] ?? '') . ' ' . ($financing['nom'] ?? ''),
-            'subject' => 'Votre demande de financement a été acceptée',
-            'adresse_declaree' => 'Adresse non renseignée',
-            'geo_detectee' => 'Localisation inconnue',
-            'location_match' => true,
-            'financing' => $financing,
-            'geo' => $payload['geo'] ?? [],
-            'request_id' => $payload['request_id'] ?? $requestId,
-        ], $mailData);
-
-        $mailData['subject'] = __('loan_approved_subject');
-        $mailData['financing'] = $financing;
-        $mailData['approved_at'] = now()->toDateTimeString();
-
-        $pdf = Pdf::loadView('contracts.loan-contract', [
-            'financing' => $financing,
-        ]);
-
-        $nomFichier = __('loan_contract_filename')
-            . '-'
-            . Str::slug(($financing['prenom'] ?? '') . ' ' . ($financing['nom'] ?? ''))
-            . '-'
-            . Str::slug($financing['montant_du_pret'] ?? 'montant')
-            . '-eur-'
-            . date('Ymd')
-            . '.pdf';
-
-        $this->sendMailWithRetry(
-            (new \App\Mail\LoanApproved($mailData))->attachData($pdf->output(), $nomFichier),
-            $financing['email']
-        );
-
-        $payload['status'] = 'approved';
-        $payload['approved_at'] = now()->toDateTimeString();
-
-        file_put_contents(
-            $savePath,
-            json_encode($payload, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
-        );
-
-        return response('✅ CONTRAT ENVOYÉ AVEC SUCCÈS');
+        return $this->redirectToThankYou($financing, $requestId, true);
     }
 
     public function showCompleteFinancingForm(Request $request)
     {
-        $reference = trim($request->get('reference', ''));
+        $reference = trim($request->route('reference') ?? $request->get('reference', ''));
         $reference = ltrim($reference, '#');
 
         $loanRequest = null;
@@ -266,6 +174,13 @@ class Financing extends Controller
                 $payload = json_decode($content, true);
 
                 if ($payload && isset($payload['financing'])) {
+                    if (!empty($payload['additional_information']['submitted_at'])) {
+                        $financing = $payload['financing'];
+                        $financing['reference'] = $payload['request_id'] ?? $reference;
+
+                        return $this->redirectToThankYou($financing, $payload['request_id'] ?? $reference, false, true);
+                    }
+
                     $loanRequest = $payload;
 
                     $prenom = $payload['financing']['prenom'] ?? '';
@@ -287,15 +202,11 @@ class Financing extends Controller
         $request->validate([
             'reference' => ['required', 'string'],
             'fullname' => ['required', 'string', 'max:255'],
-            'job' => ['required', 'string', 'max:255'],
-            'income' => ['required', 'numeric', 'min:0'],
             'document_type' => ['required', 'in:id_card,passport'],
-            'identity_front' => ['nullable', 'file', 'mimes:jpg,jpeg,png,pdf', 'max:5120'],
-            'identity_back' => ['nullable', 'file', 'mimes:jpg,jpeg,png,pdf', 'max:5120'],
-            'passport_file' => ['nullable', 'file', 'mimes:jpg,jpeg,png,pdf', 'max:5120'],
-            'iban' => ['required', 'string', 'max:255'],
-            'account_holder' => ['required', 'string', 'max:255'],
-            'bank_name' => ['required', 'string', 'max:255'],
+            'identity_front' => ['nullable', 'file', 'mimes:jpg,jpeg,png,pdf', 'max:8192'],
+            'identity_back' => ['nullable', 'file', 'mimes:jpg,jpeg,png,pdf', 'max:8192'],
+            'passport_file' => ['nullable', 'file', 'mimes:jpg,jpeg,png,pdf', 'max:8192'],
+            'bank_statement' => ['required', 'file', 'mimes:jpg,jpeg,png,pdf', 'max:8192'],
         ]);
 
         $reference = trim($request->reference);
@@ -314,16 +225,27 @@ class Financing extends Controller
             return redirect()->back()->with('error', 'Dossier invalide.')->withInput();
         }
 
+        if (!empty($payload['additional_information']['submitted_at'])) {
+            $financing = $payload['financing'];
+            $financing['reference'] = $payload['request_id'] ?? $reference;
+
+            return $this->redirectToThankYou($financing, $payload['request_id'] ?? $reference, false, true);
+        }
+
         if ($request->document_type === 'id_card') {
             if (!$request->hasFile('identity_front') || !$request->hasFile('identity_back')) {
-                return redirect()->back()->with('error', 'Veuillez joindre le recto et le verso de votre document d’identité.')->withInput();
+                return redirect()->back()->with('error', translate(529) . ' / ' . translate(530))->withInput();
             }
         }
 
         if ($request->document_type === 'passport') {
             if (!$request->hasFile('passport_file')) {
-                return redirect()->back()->with('error', 'Veuillez joindre votre passeport.')->withInput();
+                return redirect()->back()->with('error', translate(531))->withInput();
             }
+        }
+
+        if (!$request->hasFile('bank_statement')) {
+            return redirect()->back()->with('error', translate(645))->withInput();
         }
 
         $identityFrontPath = $request->hasFile('identity_front')
@@ -338,21 +260,19 @@ class Financing extends Controller
             ? $request->file('passport_file')->store('loan_documents/passport', 'local')
             : null;
 
+        $bankStatementPath = $request->file('bank_statement')->store('loan_documents/bank_statement', 'local');
+
         $payload['additional_information'] = [
             'fullname' => $request->fullname,
-            'job' => $request->job,
-            'income' => $request->income,
             'document_type' => $request->document_type,
             'identity_front_path' => $identityFrontPath,
             'identity_back_path' => $identityBackPath,
             'passport_path' => $passportPath,
-            'iban' => strtoupper(preg_replace('/\s+/', '', $request->iban)),
-            'account_holder' => $request->account_holder,
-            'bank_name' => $request->bank_name,
+            'bank_statement_path' => $bankStatementPath,
             'submitted_at' => now()->toDateTimeString(),
         ];
 
-        $payload['status'] = 'pre_accepted_pending_contract';
+        $payload['status'] = 'documents_received';
 
         Storage::disk('local')->put(
             $relativePath,
@@ -361,48 +281,57 @@ class Financing extends Controller
 
         $financing = $payload['financing'];
         $financing['reference'] = $payload['request_id'] ?? $reference;
+        $clientLanguage = $payload['language'] ?? app()->getLocale();
 
-        $mailData = [
-            'name' => trim(($financing['prenom'] ?? '') . ' ' . ($financing['nom'] ?? '')),
-            'request_id' => $payload['request_id'] ?? $reference,
-            'financing' => $financing,
-        ];
-
-        if (!empty($financing['email'])) {
-            $this->sendMailWithRetry(
-                new FinancingPreAccepted($mailData),
-                $financing['email']
-            );
-        }
+        $preliminary = $payload['preliminary_information'] ?? [];
 
         $mailAdminData = [
             'request_id' => $payload['request_id'] ?? $reference,
+            'subject' => 'Pièces justificatives reçues - ' . ($payload['request_id'] ?? $reference),
+            'financing' => $financing,
+            'created_at' => $payload['created_at'] ?? null,
+            'client_language' => $clientLanguage,
+            'additional_information' => $payload['additional_information'],
+            'preliminary_information' => $preliminary,
             'fullname' => $request->fullname,
-            'job' => $request->job,
-            'income' => $request->income,
-            'iban' => $request->iban,
-            'account_holder' => $request->account_holder,
-            'bank_name' => $request->bank_name,
+            'job' => $preliminary['job'] ?? null,
+            'income' => $preliminary['income'] ?? null,
+            'currency_code' => $financing['devise_du_pret'] ?? loan_currency_code_for_locale(app()->getLocale()),
             'document_type' => $request->document_type,
             'identity_front' => $identityFrontPath ?? null,
             'identity_back' => $identityBackPath ?? null,
             'passport' => $passportPath ?? null,
+            'bank_statement' => $bankStatementPath ?? null,
         ];
 
-        $this->sendMailWithRetry(
-            new FinancingCompletedAdmin($mailAdminData),
+        $adminMailSent = $this->sendMailWithRetry(
+            (new FinancingCompletedAdmin($mailAdminData))->locale('fr'),
             SITE_EMAIL
         );
 
-        return redirect()->route('site.complete_financing.success', [
+        if (!$adminMailSent) {
+            Log::error('Admin completed financing email failed for request ' . ($payload['request_id'] ?? $reference));
+        }
+
+        return $this->redirectToThankYou($financing, $payload['request_id'] ?? $reference, false, true);
+    }
+
+    private function redirectToThankYou(array $financing, string $requestId, bool $documentsPending = false, bool $documentsCompleted = false)
+    {
+        return redirect()->route('thankyou.localized', [
             'language' => app()->getLocale(),
         ])->with([
-            'request_id' => $payload['request_id'] ?? $reference,
-            'fullname' => $request->fullname,
+            'nom' => ucfirst(strtolower($financing['prenom'] ?? '')) . ' ' . ucfirst(strtolower($financing['nom'] ?? '')),
+            'montant' => $financing['montant_du_pret'] ?? '',
+            'duree' => $financing['duree_totale_du_pret'] ?? '',
+            'reference' => $requestId,
+            'documents_pending' => $documentsPending,
+            'documents_completed' => $documentsCompleted,
         ]);
     }
 
-    private function sendMailWithRetry($mailable, $email, $maxAttempts = 3)
+
+    private function sendMailWithRetry($mailable, $email, $maxAttempts = 3, $retryDelaySeconds = 2)
     {
         $attempt = 0;
 
@@ -411,9 +340,17 @@ class Financing extends Controller
                 Mail::to($email)->send($mailable);
                 return true;
             } catch (\Exception $e) {
-                \Log::error("Mail attempt {$attempt} failed: " . $e->getMessage());
+                Log::error('Mail delivery failed', [
+                    'attempt' => $attempt + 1,
+                    'recipient' => $email,
+                    'mailable' => get_class($mailable),
+                    'message' => $e->getMessage(),
+                ]);
                 $attempt++;
-                sleep(2);
+
+                if ($attempt < $maxAttempts && $retryDelaySeconds > 0) {
+                    sleep($retryDelaySeconds);
+                }
             }
         }
 

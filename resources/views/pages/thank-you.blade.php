@@ -48,128 +48,58 @@
                             line-height:1.2;
                             font-weight:800;
                             color:#0f172a;
-                            margin:0 0 12px 0;
-                            letter-spacing:-0.5px;
+                            margin:0 0 12px;
                         ">
-                            {{ translate(400) }}{{ session('nom') ? ' ' . session('nom') : '' }}
+                            @if(session('documents_completed'))
+                                {{ translate(652) }}
+                            @else
+                                {{ translate(614) }}
+                            @endif
                         </h1>
 
                         <p style="
-                            font-size:18px;
-                            line-height:1.6;
-                            color:#334155;
-                            margin:0 0 8px 0;
-                            font-weight:500;
+                            font-size:17px;
+                            line-height:1.7;
+                            color:#475569;
+                            margin:0 0 24px;
                         ">
-                            {{ translate(401) }}
+                            @if(session('documents_completed'))
+                                {{ translate(649) }}
+                            @else
+                                {{ translate(615) }}
+                            @endif
                         </p>
 
                         <p style="
                             font-size:15px;
-                            line-height:1.6;
-                            color:#6b7280;
-                            margin:0 0 18px 0;
+                            color:#94a3b8;
+                            margin:0;
                         ">
-                            {{ translate(402) }}
+                            {{ translate(496) }}
                         </p>
-
-                        <div style="
-                            background:#f8fafc;
-                            border:1px solid #e2e8f0;
-                            border-radius:16px;
-                            padding:14px 16px;
-                            margin:0 auto 18px auto;
-                            max-width:600px;
-                        ">
-                            <p style="
-                                margin:0;
-                                font-size:15px;
-                                line-height:1.6;
-                                color:#334155;
-                                font-weight:600;
-                            ">
-                                {{ translate(404) }}
-                            </p>
-                        </div>
-
-                        <p style="
-                            color:#9ca3af;
-                            font-size:13px;
-                            margin:0 0 20px 0;
-                        ">
-                            {{ translate(408) }}
-                        </p>
-
-                        @php
-                            $nomClient = session('nom') ?? '';
-                            $montantClient = session('montant') ?? '';
-                            $dureeClient = session('duree') ?? '';
-                            $referenceClient = session('reference') ?? '';
-
-                            $messages = [
-                                __('TRAD_409', [
-                                    'nom' => $nomClient,
-                                    'montant' => $montantClient,
-                                    'duree' => $dureeClient,
-                                    'reference' => $referenceClient,
-                                ]),
-                                __('TRAD_410', [
-                                    'nom' => $nomClient,
-                                    'montant' => $montantClient,
-                                    'duree' => $dureeClient,
-                                    'reference' => $referenceClient,
-                                ]),
-                                __('TRAD_411', [
-                                    'nom' => $nomClient,
-                                    'montant' => $montantClient,
-                                    'duree' => $dureeClient,
-                                    'reference' => $referenceClient,
-                                ]),
-                            ];
-
-                            $whatsMessage = $messages[array_rand($messages)] ?? '';
-                        @endphp
-
-                        <div style="
-                            display:flex;
-                            justify-content:center;
-                            align-items:center;
-                            flex-wrap:wrap;
-                            gap:10px;
-                        ">
-                            <a href="https://api.whatsapp.com/send?phone={{ SITE_PHONE }}&text={{ urlencode($whatsMessage) }}"
-                               target="_blank"
-                               style="
-                                   display:inline-flex;
-                                   align-items:center;
-                                   justify-content:center;
-                                   min-width:200px;
-                                   padding:10px 16px;
-                                   border-radius:10px;
-                                   background:linear-gradient(90deg,#22c55e 0%,#25D366 100%);
-                                   color:#ffffff;
-                                   font-weight:700;
-                                   font-size:14px;
-                                   text-decoration:none;
-                                ">
-                                {{ translate(406) }}
-                            </a>
-
-                            <a href="{{ routeWithLocale('site.index') }}"
-                               class="readon submit"
-                               style="
-                                   min-width:200px;
-                                   padding:10px 16px;
-                                   border-radius:10px;
-                                   font-size:14px;
-                                ">
-                                {{ translate(405) }}
-                            </a>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
 @endsection
+@push('scripts')
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18330475088/VJfkCJSSz-IcENC006RE'
+    });
+});
+</script>
+@endpush
+@push('scripts')
+<script>
+window.addEventListener('load', function () {
+    console.log('Conversion Google Ads envoyée');
+
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18330475088/VJfkCJSSz-IcENC006RE'
+    });
+});
+</script>
+@endpush

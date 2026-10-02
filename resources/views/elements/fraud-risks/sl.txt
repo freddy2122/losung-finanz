@@ -1,0 +1,18 @@
+<h2>Protect yourself against fraud</h2>
+<p>We take the threat of fraud very seriously and have implemented policies and procedures to protect our customers and investors.</p>
+<p>We invite you, as customers, investors and business partners, to remain vigilant against the risk of fraud and fraudulent communications, to help us fight fraud worldwide.</p>
+
+<h2>Important recommendations</h2>
+<p>We particularly recommend that you remain alert to the dangers of fraud, especially investment and payment fraud*, even if documents or websites refer to genuine products and appear legitimate.</p>
+<p>Potential investors should exercise extreme caution. (WEBSITE_NAME) accepts no liability for potential losses you may suffer.</p>
+
+<h2>Unaffiliated companies</h2>
+<p>We confirm that the following companies are in no way affiliated with (WEBSITE_NAME), nor are they part of it.</p>
+<p>If you have lost money as a result of a scam, please contact the relevant authorities in your country and (WEBSITE_NAME) at: (WEBSITE_EMAIL).</p>
+
+<h2>Types of fraud</h2>
+<h3>Investment and payment fraud*</h3>
+<p>In investment and payment fraud, the victim is invited to send a lump sum to invest in bonds or fictitious fund(s) offered by the « bank ».</p>
+
+<h3>Payment fraud (advance fee fraud)*</h3>
+<p>In payment fraud (or advance fee fraud), the victim makes an advance payment to the « bank » to receive a service, such as « administrative fees » for a loan or « legal fees » to process an « inheritance ». The victim is asked to pay before the loan is approved or the sum received, after which the fraudsters disappear.</p>

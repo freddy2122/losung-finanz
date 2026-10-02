@@ -1,0 +1,43 @@
+<h2>Herausgeber der Website</h2>
+<p><strong>(WEBSITE_NAME)</strong></p>
+<p>(LEGAL_COMPANY_FORM)</p>
+<p>
+	<b>RCS Nanterre :</b> (LEGAL_RCS)<br>
+	<b>SIREN :</b> (LEGAL_SIREN)<br>
+	<b>SIRET :</b> (LEGAL_SIRET) (Sitz)<br>
+	<b>Tätigkeit (NAF/APE) :</b> (LEGAL_NAF)<br>
+	<b>USt-IdNr. :</b> (LEGAL_VAT_NUMBER)
+</p>
+<p>UED Swiss ist ein französisches Kreditinstitut, das von der Autorité de Contrôle Prudentiel et de Résolution (ACPR, 4, place de Budapest, CS 92459, 75436 Paris Cedex 09) zugelassen ist.</p>
+<p>
+	<b>Adresse :</b> (WEBSITE_ADDRESS)<br>
+	<b>E-Mail :</b> (WEBSITE_EMAIL)
+</p>
+
+<h2>Verantwortlicher Herausgeber</h2>
+<p><b>Verantwortlicher Herausgeber :</b> (LEGAL_PUBLICATION_DIRECTOR)</p>
+<p><b>Verantwortliche Redaktion :</b> (LEGAL_EDITOR_DIRECTOR)</p>
+
+<h2>Hinweis</h2>
+<p>Der Herausgeber möchte die Aufmerksamkeit des Internetnutzers auf die Bestimmungen zur Nutzung dieser Website, nachfolgend „Website“ genannt, lenken. Jeder Nutzer sollte diese Regeln kennen. Es wird daran erinnert, dass die Vertraulichkeit der Korrespondenz im Internet nicht gewährleistet ist und dass jeder Internetnutzer geeignete Maßnahmen zum Schutz seiner Daten und Software ergreifen muss.</p>
+
+<h2>Zugangsbedingungen und Tarifgestaltung</h2>
+<p>Der Zugang zur Website ist kostenlos, mit Ausnahme der gegebenenfalls durch Telekommunikations- und Internetzugangsanbieter direkt in Rechnung gestellten Kosten.</p>
+
+<h2>Nutzungsbedingungen</h2>
+<p>Diese Website unterliegt dem französischen Recht.</p>
+<p>Diese Website ist eine Informationswebsite über (WEBSITE_NAME).</p>
+<p>Die auf der Website bereitgestellten Inhalte dienen ausschließlich Informationszwecken. Es obliegt dem Internetnutzer, diese Informationen mit Urteilsvermögen und kritischem Geist zu verwenden. Die Existenz eines Links von dieser Website zu einer anderen Website stellt keine Billigung dieser Website oder ihres Inhalts dar. Die Verantwortung des Herausgebers kann für Informationen, Meinungen und Empfehlungen Dritter nicht eingefordert werden. Es wird an die Risiken im Zusammenhang mit der elektronischen Übermittlung von Informationen erinnert: Verzögerungen, Auslassungen oder Ungenauigkeiten können auftreten. Diese Informationen werden unabhängig von ihrer Quelle so bereitgestellt, wie sie vorliegen.</p>
+
+<h2>Urheberrecht</h2>
+<p>Die Website und die sie bildenden Elemente (Daten, Animationen usw.), insbesondere die darauf erscheinenden Marken und Logos, sind geschützt und unterliegen dem französischen und internationalen Recht in Bezug auf Urheberrecht und geistiges Eigentum.</p>
+<p>Jede vollständige oder teilweise Vervielfältigung oder Darstellung der Website oder eines in ihre Zusammensetzung eingehenden Elements, unabhängig vom Medium oder Verfahren, ist untersagt.</p>
+<p>Die Nichteinhaltung dieses Verbots stellt eine Fälschung dar, die die zivil- und strafrechtliche Haftung des Fälschers begründet.</p>
+
+<h2>Schutz personenbezogener Daten</h2>
+<p>Weitere Informationen zum Schutz Ihrer personenbezogenen Daten finden Sie in unserer Datenschutzrichtlinie.</p>
+
+<h2>Informationen zur Bearbeitung von Beschwerden</h2>
+<p>(WEBSITE_NAME) legt besonderen Wert auf die Anmerkungen und Beschwerden seiner Kunden.</p>
+<p>Bei Meinungsverschiedenheiten, Missverständnissen oder Unzufriedenheit ist die Agentur Ihr erster Ansprechpartner.</p>
+<p>Besteht der Streitfall fort oder liegt keine Antwort vor, steht Ihnen ein Kundendienst zur Verfügung. Erscheint keine Lösung möglich, verfügt (WEBSITE_NAME) über einen Mediator, der insbesondere wegen seiner Kompetenz und Unparteilichkeit ausgewählt wurde. Dieser kann kostenlos angerufen werden.</p>

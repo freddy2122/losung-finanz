@@ -158,7 +158,7 @@ h6 {
   padding-bottom: 300px;
 }
 a {
-  color: #BB0B0B;
+  color: #0B6B3A;
   transition: all 0.3s ease;
   text-decoration: none !important;
   outline: none !important;
@@ -167,7 +167,7 @@ a:active,
 a:hover {
   text-decoration: none;
   outline: 0 none;
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 ul {
   list-style: outside none none;
@@ -178,12 +178,12 @@ ul {
   clear: both;
 }
 ::-moz-selection {
-  background: #BB0B0B;
+  background: #0B6B3A;
   text-shadow: none;
   color: #ffffff;
 }
 ::selection {
-  background: #BB0B0B;
+  background: #0B6B3A;
   text-shadow: none;
   color: #ffffff;
 }
@@ -268,7 +268,7 @@ body.nav-expanded .offwrap {
   background: unset !important;
 }
 .rs-menu-toggle {
-  color: #BB0B0B;
+  color: #0B6B3A;
   text-align: right;
 }
 button {
@@ -303,7 +303,7 @@ ul.services-list li a:before {
 }
 ul.services-list li a:hover,
 ul.services-list li a.active {
-  background: #BB0B0B;
+  background: #0B6B3A;
   color: #ffffff;
   border-radius: 0px 10px 0px 10px;
 }
@@ -320,7 +320,7 @@ ul.check-lists li {
 ul.check-lists li:before {
   content: "\f160";
   font-size: 18px;
-  color: #BB0B0B;
+  color: #0B6B3A;
   margin: 0;
   display: inline-block;
   font-family: uicons-regular-rounded !important;
@@ -350,7 +350,7 @@ button:focus {
   align-items: center;
   padding: 15px 10px 15px 8px;
   border-radius: 0;
-  background: #BB0B0B;
+  background: #0B6B3A;
 }
 .pagination-area .nav-link .page-number {
   padding: 2px 15px 0 20px;
@@ -415,7 +415,7 @@ button:focus {
   right: 4px;
 }
 .pagination-part .active a {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .gridFilter button {
   font-size: 16px;
@@ -430,11 +430,11 @@ button:focus {
   border: 0;
 }
 .gridFilter button.active {
-  color: #BB0B0B;
+  color: #0B6B3A;
   box-shadow: 0 0 30px #eee;
 }
 .gridFilter button:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .gridFilter button + button {
   margin-left: 20px;
@@ -450,7 +450,7 @@ blockquote {
   text-align: left;
   clear: both;
   font-weight: 400;
-  border-left: 4px solid #BB0B0B;
+  border-left: 4px solid #0B6B3A;
 }
 blockquote p {
   font-size: 20px;
@@ -467,7 +467,7 @@ blockquote p cite:before {
   color: #ff5421;
   padding-bottom: 0px;
   display: inline-block;
-  background: #BB0B0B;
+  background: #0B6B3A;
   height: 2px;
   width: 40px;
   font-weight: 400;
@@ -492,7 +492,7 @@ blockquote p cite:before {
   height: 42px;
   line-height: 42px;
   border-radius: 50%;
-  background: #BB0B0B;
+  background: #0B6B3A;
   text-align: center;
   color: #ffffff;
   transition: all 0.5s;
@@ -542,7 +542,7 @@ blockquote p cite:before {
 .rs-carousel .owl-dots .owl-dot:hover,
 .rs-carousel .owl-dots .owl-dot.active {
   width: 40px;
-  background: #BB0B0B;
+  background: #0B6B3A;
   opacity: 1;
 }
 /* no-gutters Class Rules */
@@ -601,7 +601,7 @@ blockquote p cite:before {
   font-weight: 600;
   line-height: 26px;
   color: #ffffff;
-  background: #BB0B0B;
+  background: #0B6B3A;
   padding: 14px 40px 14px 40px;
   z-index: 1;
   border-radius: 0 10px 0 10px;
@@ -644,7 +644,7 @@ blockquote p cite:before {
 .readon.cta-started {
   padding: 14px 33px 13px 33px;
   background-color: #ffffff;
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .readon.cta-started:hover {
   background-color: #032E42;
@@ -661,13 +661,13 @@ blockquote p cite:before {
 }
 .readon.cta-started.get-quote {
   padding: 17px 80px 14px 80px;
-  background-color: #BB0B0B;
+  background-color: #0B6B3A;
   color: #ffffff;
   border-radius: 5px 5px 5px 5px;
 }
 .readon.cta-started.get-quote:hover {
   background-color: #FFF;
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .readon.price-started {
   padding: 13px 32px;
@@ -717,7 +717,7 @@ blockquote p cite:before {
   padding: 8px 20px 7px 20px;
   font-weight: 600;
   border-radius: 0px 10px 0px 10px;
-  background-color: #BB0B0B;
+  background-color: #0B6B3A;
 }
 .readon.apply:hover {
   background-color: #032E42;
@@ -732,7 +732,7 @@ blockquote p cite:before {
   padding: 8px 27px;
   font-size: 16px;
   font-weight: 500;
-  background: #BB0B0B;
+  background: #0B6B3A;
   color: #ffffff;
   border: none;
 }
@@ -756,7 +756,7 @@ blockquote p cite:before {
   font-size: 16px;
 }
 .btn-text:hover i {
-  background: linear-gradient(to bottom right, #003b40, #BB0B0B);
+  background: linear-gradient(to bottom right, #003b40, #0B6B3A);
   color: #FFF;
 }
 /*-- Blog Button CSS --*/
@@ -767,7 +767,7 @@ blockquote p cite:before {
   transition: all ease .3s;
   font-size: 16px;
   font-weight: 600;
-  background-color: #BB0B0B;
+  background-color: #0B6B3A;
   border-radius: 0px 10px 0px 10px;
   padding: 13px 22px 12px 22px;
 }
@@ -820,7 +820,7 @@ blockquote p cite:before {
   transition: all 0.3s;
 }
 .blog-button.inner-btn:hover a {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .blog-button.inner-btn:hover a:before {
   right: -10px;
@@ -871,7 +871,7 @@ blockquote p cite:before {
   right: 68%;
 }
 .submit-btn.debitis {
-  background: #BB0B0B;
+  background: #0B6B3A;
   padding: 9px 25px;
   display: inline-block;
 }
@@ -894,7 +894,7 @@ blockquote p cite:before {
 }
 .address-wrap .icon-part i {
   text-align: center;
-  color: #BB0B0B;
+  color: #0B6B3A;
   border-radius: 100%;
   font-size: 25px;
   position: relative;
@@ -1061,7 +1061,7 @@ blockquote p cite:before {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.3;
-  color: #BB0B0B;
+  color: #0B6B3A;
   text-transform: uppercase;
   font-family: 'Epilogue', sans-serif;
   margin: 0 0 10px;
@@ -1094,7 +1094,7 @@ blockquote p cite:before {
   font-weight: 800;
 }
 .sec-title .title span {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .sec-title .desc {
   font-size: 16px;
@@ -1155,7 +1155,7 @@ blockquote p cite:before {
   margin-right: 0;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li i {
-  color: #BB0B0B;
+  color: #0B6B3A;
   margin-right: 6px;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li i:before {
@@ -1168,7 +1168,7 @@ blockquote p cite:before {
   color: #ffffff;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix {
   text-align: right;
@@ -1188,7 +1188,7 @@ blockquote p cite:before {
   color: #ffffff;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix li a i:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1.topbar-style2 {
   max-width: unset;
@@ -1249,7 +1249,7 @@ blockquote p cite:before {
   font-family: Epilogue;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.menu-item-has-children > a {
   padding-right: 17px;
@@ -1272,7 +1272,7 @@ blockquote p cite:before {
   content: "-";
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a {
-  color: #BB0B0B !important;
+  color: #0B6B3A !important;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu {
   background: #ffffff;
@@ -1298,7 +1298,7 @@ blockquote p cite:before {
   text-transform: capitalize;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu li a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu li:last-child {
   margin: 0;
@@ -1311,13 +1311,13 @@ blockquote p cite:before {
   right: 100%;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.onepage-menu li.current-menu-item > a {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li a:hover,
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.active a,
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.current-menu-item > a,
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.current-menu-item > a:before {
-  color: #BB0B0B !important;
+  color: #0B6B3A !important;
 }
 .full-width-header .rs-header .menu-area.sticky {
   background: #FFF;
@@ -1329,10 +1329,10 @@ blockquote p cite:before {
   color: #101010;
 }
 .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li > a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li.current-menu-item > a {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .full-width-header .rs-header .menu-area.sticky .expand-btn-inner ul .sidebarmenu-search a i {
   display: none;
@@ -1363,7 +1363,7 @@ blockquote p cite:before {
 }
 .full-width-header .rs-header .expand-btn-inner ul .btn-quote .quote-button {
   font-size: 15px;
-  background: #BB0B0B;
+  background: #0B6B3A;
   padding: 10px 30px;
   border-radius: 0px;
   color: #FFF;
@@ -1391,7 +1391,7 @@ blockquote p cite:before {
   height: 5px;
   width: 5px;
   display: block;
-  background: #BB0B0B;
+  background: #0B6B3A;
   border-radius: 50%;
   transition: none;
   list-style: none;
@@ -1405,7 +1405,7 @@ blockquote p cite:before {
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot6,
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot7,
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot8 {
-  background: #BB0B0B;
+  background: #0B6B3A;
 }
 .full-width-header .rs-header.header-style1 .menu-area .main-menu .rs-menu ul.nav-menu li a {
   height: 98px;
@@ -1417,7 +1417,7 @@ blockquote p cite:before {
   line-height: 25px;
 }
 .full-width-header .rs-header.header-style1 .expand-btn-inner ul .sidebarmenu-search a i {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .full-width-header .rs-header.header-style1 .expand-btn-inner ul .btn-quote .quote-button {
   border-radius: 5px;
@@ -1439,7 +1439,7 @@ blockquote p cite:before {
   transform: translateX(-50%);
   width: 99.6%;
   height: 5px;
-  background: #BB0B0B;
+  background: #0B6B3A;
   content: "";
   border-radius: 0 0 12px 12px;
 }
@@ -1494,7 +1494,7 @@ blockquote p cite:before {
   float: right;
 }
 .full-width-header .mobile-menu .rs-menu-toggle.primary {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .full-width-header .mobile-menu .rs-menu-toggle.secondary {
   color: #ffd600;
@@ -1555,7 +1555,7 @@ blockquote p cite:before {
   transform: translate(-50%, -50%) rotate(45deg);
   width: 1px !important;
   height: 25px !important;
-  background: #BB0B0B;
+  background: #0B6B3A;
   border: none !important;
   transition: all 0.3s ease;
 }
@@ -1563,7 +1563,7 @@ blockquote p cite:before {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 .full-width-header .right_menu_togle .close-btn:hover .nav-close .line span {
-  background: #BB0B0B;
+  background: #0B6B3A;
 }
 .full-width-header .right_menu_togle .canvas-logo {
   padding-left: 0;
@@ -1585,7 +1585,7 @@ blockquote p cite:before {
 .full-width-header .right_menu_togle .canvas-contact .address-area .address-list .info-icon i:before {
   margin: 0 20px 0 0;
   font-size: 25px;
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .full-width-header .right_menu_togle .canvas-contact .address-area .address-list .info-content .title {
   font-size: 16px;
@@ -1605,7 +1605,7 @@ blockquote p cite:before {
   color: #333333;
 }
 .full-width-header .right_menu_togle .canvas-contact .address-area .address-list .info-content em a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .full-width-header .right_menu_togle .canvas-contact .social {
   margin: 40px 0 0;
@@ -1618,7 +1618,7 @@ blockquote p cite:before {
   color: #FFF;
   margin: 0 8px 0 0;
   text-align: center;
-  background: #BB0B0B;
+  background: #0B6B3A;
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -1714,7 +1714,7 @@ blockquote p cite:before {
 }
 .full-width-header .mobile-navbar-menu .nav-menu li.active-menu a,
 .full-width-header .mobile-navbar-menu .nav-menu li a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 body.modal-open {
   padding: 0 !important;
@@ -1938,7 +1938,7 @@ body .search-modal .close:hover {
   color: #032E42;
 }
 .rs-about.about-style2 .rs-addon-services .services-item .services-content .title a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-about.about-style2 .rs-addon-services .services-item .services-content .services-txt {
   margin: 0;
@@ -2001,7 +2001,7 @@ body .search-modal .close:hover {
   border: 0;
   width: 65px;
   height: 5px;
-  background: #BB0B0B;
+  background: #0B6B3A;
   z-index: 1;
   margin-left: 0;
   left: 0;
@@ -2268,7 +2268,7 @@ body .search-modal .close:hover {
   height: 40px;
   line-height: 40px;
   border: none;
-  background: #BB0B0B;
+  background: #0B6B3A;
   opacity: 1;
 }
 .rs-slider.rs-slider-style2.rs-slider-style3 .nivo-directionNav > a:before {
@@ -2342,8 +2342,8 @@ body .search-modal .close:hover {
   transition: .4s ease all;
 }
 .rs-slider .nivo-controlNav .nivo-control.active {
-  background: #BB0B0B;
-  border-color: #BB0B0B;
+  background: #0B6B3A;
+  border-color: #0B6B3A;
 }
 .rs-slider.case-slider-style3 .owl-nav .owl-next,
 .rs-slider.case-slider-style3 .owl-nav .owl-prev {
@@ -2381,13 +2381,13 @@ body .search-modal .close:hover {
   font-size: 36px;
   line-height: 60px;
   font-weight: 800;
-  color: #BB0B0B;
+  color: #0B6B3A;
   padding: 0px 0px 4px 0px;
 }
 .rs-counter.counter-style1 .rs-counter-list .counter-text .counter-number .prefix {
   font-size: 40px;
   font-weight: 800;
-  color: #BB0B0B;
+  color: #0B6B3A;
   padding: 0px 0px 4px 0px;
 }
 .rs-counter.counter-style1 .rs-counter-list .counter-text .title {
@@ -2657,7 +2657,7 @@ body .search-modal .close:hover {
   align-items: center;
 }
 .rs-contact.contact-style3 .contact-box .address-box .address-icon {
-  background-color: #BB0B0B;
+  background-color: #0B6B3A;
   min-width: 40px;
   height: 40px;
   line-height: 44px;
@@ -2681,7 +2681,7 @@ body .search-modal .close:hover {
   color: #666666;
 }
 .rs-contact.contact-style3 .contact-box .address-box .address-text a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-contact.contact-style3 .contact-box .address-box .address-text .desc {
   color: #666666;
@@ -2757,7 +2757,7 @@ body .search-modal .close:hover {
   position: relative;
 }
 .rs-videos .overly-border {
-  border: 1px solid #BB0B0B;
+  border: 1px solid #0B6B3A;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -2781,7 +2781,7 @@ body .search-modal .close:hover {
   top: 50%;
   z-index: 9;
   text-align: center;
-  background: #BB0B0B;
+  background: #0B6B3A;
 }
 .rs-videos .overly-border a i {
   font-size: 30px;
@@ -2803,7 +2803,7 @@ body .search-modal .close:hover {
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
   transition: all 0.3s ease;
-  background: #BB0B0B;
+  background: #0B6B3A;
 }
 .rs-videos .overly-border a:after {
   content: "";
@@ -2991,7 +2991,7 @@ Video CSS
   color: #003b40;
 }
 .rs-project.project-style2 .project-item .project-content .category a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style2 .project-item .project-content .title {
   font-size: 22px;
@@ -3006,7 +3006,7 @@ Video CSS
   color: #032E42;
 }
 .rs-project.project-style2 .project-item .project-content .title a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style2 .project-item .project-content .project-btn {
   position: absolute;
@@ -3059,7 +3059,7 @@ Video CSS
   height: 50px;
   line-height: 55px;
   text-align: center;
-  background: #BB0B0B;
+  background: #0B6B3A;
   border-radius: 50%;
   transition: all 0.3s ease;
   z-index: 11;
@@ -3088,7 +3088,7 @@ Video CSS
   color: #ffffff;
 }
 .rs-project.project-style3 .project-item .project-content .project-inner .title a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style3 .project-item .project-content .project-inner .category {
   font-size: 20px;
@@ -3100,7 +3100,7 @@ Video CSS
   color: #ffffff;
 }
 .rs-project.project-style3 .project-item .project-content .project-inner .category a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style3 .project-item:before {
   content: "";
@@ -3156,7 +3156,7 @@ Video CSS
   display: inline-block;
 }
 .rs-project.project-style4 .project-item .project-content .category a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style4 .project-item .project-content .title {
   font-size: 18px;
@@ -3169,7 +3169,7 @@ Video CSS
   display: block;
 }
 .rs-project.project-style4 .project-item .project-content .title a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style4 .project-item:hover .project-content {
   opacity: 1;
@@ -3206,7 +3206,7 @@ Video CSS
   color: #ffffff;
 }
 .rs-project.project-style5 .project-item .project-content .title a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style5 .project-item .project-content .category {
   font-size: 16px;
@@ -3215,7 +3215,7 @@ Video CSS
   display: block;
 }
 .rs-project.project-style5 .project-item .project-content .category a {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style5 .project-item .project-content:before {
   content: '';
@@ -3285,7 +3285,7 @@ Video CSS
   color: #ffffff;
 }
 .rs-project.project-style6 .project-item .project-content .project-inner .title a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style6 .project-item .project-content .project-inner .category {
   font-size: 16px;
@@ -3297,7 +3297,7 @@ Video CSS
   color: #EAEAEA;
 }
 .rs-project.project-style6 .project-item .project-content .project-inner .category a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style6 .project-item .project-content:before {
   content: '';
@@ -3350,7 +3350,7 @@ Video CSS
   color: #ffffff;
 }
 .rs-project.project-style7 .project-item .project-content .project-inner .title a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style7 .project-item .project-content .project-inner .category {
   font-size: 16px;
@@ -3363,7 +3363,7 @@ Video CSS
   color: #ffffff;
 }
 .rs-project.project-style7 .project-item .project-content .project-inner .category a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-project.project-style7 .project-item .project-content .p-icon {
   width: 50px;
@@ -3371,7 +3371,7 @@ Video CSS
   text-align: center;
   line-height: 50px;
   border-radius: 50px;
-  background: #BB0B0B;
+  background: #0B6B3A;
   font-size: 18px;
 }
 .rs-project.project-style7 .project-item .project-content .p-icon a {
@@ -3413,7 +3413,7 @@ Video CSS
   border: 0;
   width: 65px;
   height: 5px;
-  background: #BB0B0B;
+  background: #0B6B3A;
   z-index: 1;
   margin-left: 0;
   left: 0;
@@ -3531,7 +3531,7 @@ Video CSS
 .rs-skillbar.skillbar-style1 .cl-skill-bar .skillbar .skillbar-bar {
   height: 6px;
   line-height: 6px;
-  background-color: #BB0B0B;
+  background-color: #0B6B3A;
   margin-bottom: 0;
   overflow: visible !important;
   width: 0;
@@ -3551,7 +3551,7 @@ Video CSS
 }
 .rs-skillbar.skillbar-style1.skillbar-team-single .cl-skill-bar .skillbar {
   background: #FFF;
-  border: 1px solid #BB0B0B;
+  border: 1px solid #0B6B3A;
   height: 8px;
   border-radius: 0;
   overflow: visible;
@@ -3563,7 +3563,7 @@ Video CSS
 .rs-skillbar.skillbar-style1.skillbar-team-single .cl-skill-bar .skillbar .skillbar-bar {
   height: 4px;
   line-height: 4px;
-  background-color: #BB0B0B;
+  background-color: #0B6B3A;
   margin-bottom: 0;
   overflow: visible !important;
   width: 0;
@@ -3627,7 +3627,7 @@ Video CSS
 }
 .rs-services.services-main-home .services-item:hover {
   border-style: solid;
-  border-color: #BB0B0B;
+  border-color: #0B6B3A;
   transform: translateY(-10px);
 }
 .rs-services.services-main-home.services-modify1 .services-item .services-wrap {
@@ -3723,7 +3723,7 @@ Video CSS
 .rs-services.services-style2 .services-item:hover {
   border-style: solid;
   border-width: 0px 0px 1px 0px;
-  border-color: #BB0B0B;
+  border-color: #0B6B3A;
   transform: translateY(-10px);
 }
 .rs-services.services-style2 .work-image {
@@ -3814,7 +3814,7 @@ Video CSS
   font-weight: 600;
   padding: 18px 35px 18px 35px;
   border-radius: 0px 0px 0px 10px;
-  background-color: #BB0B0B;
+  background-color: #0B6B3A;
   color: #ffffff;
   margin: 0 -4px;
 }
@@ -3895,7 +3895,7 @@ Video CSS
   opacity: 0;
 }
 .rs-tab-main.tab-content-style1 ul.nav .nav-item .nav-link:hover {
-  background: #BB0B0B;
+  background: #0B6B3A;
   color: #FFF;
 }
 .rs-tab-main.tab-content-style1 ul.nav .nav-item .nav-link:hover .hover-img {
@@ -3905,7 +3905,7 @@ Video CSS
   margin-right: 0 !important;
 }
 .rs-tab-main.tab-content-style1 ul.nav .nav-item.active .nav-link {
-  background: #BB0B0B;
+  background: #0B6B3A;
   color: #FFF;
 }
 .rs-tab-main.tab-content-style1 ul.nav .nav-item.active .nav-link .hover-img {
@@ -3984,7 +3984,7 @@ Video CSS
   font-weight: 600;
   padding: 17px 25px 17px 25px;
   border-radius: 0px 10px 0px 10px;
-  background-color: #BB0B0B;
+  background-color: #0B6B3A;
   color: #ffffff;
 }
 .rs-faq.faq-style1 .faq-content .accordion .card .card-header .card-link:after {
@@ -4077,7 +4077,7 @@ Video CSS
   color: #666666;
 }
 .rs-team.team-style1 .team-inner-wrap:hover {
-  background: #BB0B0B;
+  background: #0B6B3A;
 }
 .rs-team.team-style1 .team-inner-wrap:hover .team-content .team-name a {
   color: #ffffff;
@@ -4138,7 +4138,7 @@ Video CSS
 }
 .rs-team.team-style2 .team-inner-wrap .team-content .social-icons li a span i {
   font-size: 16px;
-  color: #BB0B0B;
+  color: #0B6B3A;
   margin-right: 3px;
   transition: all .8s ease;
 }
@@ -4149,7 +4149,7 @@ Video CSS
   transform: scale(1.2);
 }
 .rs-team.team-style2 .team-inner-wrap:hover .team-content .team-name a {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-team-single .btm-info-team {
   position: relative;
@@ -4168,7 +4168,7 @@ Video CSS
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
-  color: #BB0B0B;
+  color: #0B6B3A;
   text-transform: uppercase;
   padding-bottom: 5px;
   display: block;
@@ -4201,7 +4201,7 @@ Video CSS
 }
 .rs-team-single .btm-info-team .con-info .ps-informations .personal-info li span i:before {
   font-size: 16px;
-  color: #BB0B0B;
+  color: #0B6B3A;
   margin-right: 18px;
   position: relative;
   top: 2px;
@@ -4213,7 +4213,7 @@ Video CSS
   color: #555;
 }
 .rs-team-single .btm-info-team .con-info .ps-informations .personal-info li a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-team-single .btm-info-team .con-info .ps-informations .social-info {
   margin-top: 15px;
@@ -4226,7 +4226,7 @@ Video CSS
   color: #555;
 }
 .rs-team-single .btm-info-team .con-info .ps-informations .social-info li a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-team-single .btm-info-team .con-info .ps-informations .social-info li:last-child {
   margin-right: 0;
@@ -4253,7 +4253,7 @@ Video CSS
 	22. Partner Section CSS
 ------------------------------------*/
 .rs-partner.partner-main-home {
-  background-color: #BB0B0B;
+  background-color: #0B6B3A;
 }
 .rs-partner.partner-main-home .grid-figure .logo-img {
   text-align: center;
@@ -4327,7 +4327,7 @@ Video CSS
   font-size: 25px;
   line-height: normal;
   right: -70px;
-  background: #BB0B0B;
+  background: #0B6B3A;
   float: right;
   clear: right;
   position: relative;
@@ -4359,7 +4359,7 @@ Video CSS
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 27px solid #BB0B0B;
+  border-top: 27px solid #0B6B3A;
   border-right: 30px solid transparent;
   top: 44px;
   right: 0px;
@@ -4383,7 +4383,7 @@ Video CSS
   margin-right: 10px;
   min-width: 15px;
   font-size: 16px;
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-pricing.pricing-style1 .price-table .price-table-wrap .pricing-table-body .pricing-table-features-list li i.new {
   font-size: 13px;
@@ -4413,7 +4413,7 @@ Video CSS
   display: inline-block;
   padding: 12px 20px 8px;
   color: #FFF;
-  background: #BB0B0B;
+  background: #0B6B3A;
   position: absolute;
   right: 26px;
   bottom: 24px;
@@ -4441,14 +4441,14 @@ Video CSS
   color: #032E42;
 }
 .rs-blog.blog-main-home .blog-item .blog-content .blog-title a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-blog.blog-main-home .blog-item .blog-content .desc {
   color: #666666;
   margin-bottom: 34px;
 }
 .rs-blog.blog-main-home .blog-item .blog-content .blog-btn a span:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-blog.blog-main-home .blog-item:hover .image-wrap a img {
   transform: scale(1.1);
@@ -4481,7 +4481,7 @@ Video CSS
   color: #032E42;
 }
 .rs-inner-blog .blog-item .blog-content .blog-title a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-inner-blog .blog-item .blog-content .blog-meta .btm-cate {
   overflow: hidden;
@@ -4502,7 +4502,7 @@ Video CSS
   font-weight: 400;
 }
 .rs-inner-blog .blog-item .blog-content .blog-meta .btm-cate li .blog-date i {
-  color: #BB0B0B;
+  color: #0B6B3A;
   position: relative;
   margin-right: 2px;
   top: 2px;
@@ -4521,14 +4521,14 @@ Video CSS
   margin-right: 3px;
   position: relative;
   top: 2px;
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-inner-blog .blog-item .blog-content .blog-meta .btm-cate li .author i:before {
   font-size: 14px;
 }
 .rs-inner-blog .blog-item .blog-content .blog-meta .btm-cate li .tag-line i {
   margin-right: 2px;
-  color: #BB0B0B;
+  color: #0B6B3A;
   position: relative;
   top: 2px;
 }
@@ -4538,7 +4538,7 @@ Video CSS
   color: #555;
 }
 .rs-inner-blog .blog-item .blog-content .blog-meta .btm-cate li .tag-line a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-inner-blog .blog-item .blog-content .blog-meta .btm-cate li:last-child {
   margin-right: 0;
@@ -4566,7 +4566,7 @@ Video CSS
   border: 0;
   width: 50px;
   height: 2px;
-  background: #BB0B0B;
+  background: #0B6B3A;
   z-index: 1;
   margin-left: 0;
   bottom: 0;
@@ -4612,7 +4612,7 @@ Video CSS
   top: 9px;
 }
 .rs-inner-blog .widget-area .search-widget .search-wrap button:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-inner-blog .widget-area .recent-posts {
   background: #FFF;
@@ -4645,7 +4645,7 @@ Video CSS
   margin-bottom: 5px;
 }
 .rs-inner-blog .widget-area .recent-posts .recent-post-widget .post-desc a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-inner-blog .widget-area .recent-posts .recent-post-widget .post-desc .date-post {
   display: block;
@@ -4658,7 +4658,7 @@ Video CSS
 .rs-inner-blog .widget-area .recent-posts .recent-post-widget .post-desc .date-post i:before {
   top: 1px;
   font-size: 12px;
-  color: #BB0B0B;
+  color: #0B6B3A;
   position: relative;
 }
 .rs-inner-blog .widget-area .categories {
@@ -4678,7 +4678,7 @@ Video CSS
   transition: all 0.4s ease-in-out 0s;
 }
 .rs-inner-blog .widget-area .categories ul li a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-inner-blog .widget-area .categories ul li:first-child {
   border-top: none;
@@ -4703,7 +4703,7 @@ Video CSS
 }
 .rs-inner-blog .widget-area .tags-cloud .tagcloud a:hover {
   color: #ffffff;
-  background: #BB0B0B;
+  background: #0B6B3A;
 }
 .rs-inner-blog .blog-details .blog-full .blog-content-full .title {
   font-size: 22px;
@@ -4728,7 +4728,7 @@ Video CSS
   text-align: center;
   font-weight: normal;
   color: #FFF;
-  background: #BB0B0B;
+  background: #0B6B3A;
   padding: 5px 15px 5px;
   margin-left: 7px;
   border-radius: 3px;
@@ -4921,7 +4921,7 @@ Video CSS
   border: 0;
   outline: none;
   transition: all 0.3s ease-in;
-  background: #BB0B0B;
+  background: #0B6B3A;
 }
 .rs-testimonial.testimonial-style2 .slick-part .slider .slick-dots button:hover {
   opacity: 1;
@@ -4985,7 +4985,7 @@ Video CSS
   font-size: 30px;
   color: #ffffff;
   font-weight: 400;
-  background: #BB0B0B;
+  background: #0B6B3A;
   border: none ;
   padding: 8px 10px 8px;
   height: 45px;
@@ -4997,7 +4997,7 @@ Video CSS
   color: #ffffff;
   font-weight: 700;
   line-height: 40px;
-  background: #BB0B0B;
+  background: #0B6B3A;
   width: 40px;
   height: 40px;
   text-align: center;
@@ -5018,12 +5018,12 @@ Video CSS
   color: #032E42;
 }
 .rs-shop-part .product-list .content-desc .loop-product-title a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-shop-part .product-list .content-desc .price {
   font-size: 16px;
   line-height: 27px;
-  color: #BB0B0B;
+  color: #0B6B3A;
   font-weight: 600;
   margin: 0;
 }
@@ -5051,7 +5051,7 @@ Video CSS
   margin-bottom: 12px;
 }
 .rs-single-shop .single-price-info .single-price {
-  color: #BB0B0B;
+  color: #0B6B3A;
   font-weight: 600;
 }
 .rs-single-shop .single-price-info .some-text {
@@ -5083,7 +5083,7 @@ Video CSS
   color: #666666;
 }
 .rs-single-shop .single-price-info p.category a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-single-shop .single-price-info .tag {
   margin: 0;
@@ -5114,7 +5114,7 @@ Video CSS
 }
 .rs-single-shop .tab-area ul.nav-tabs li .nav-link:hover,
 .rs-single-shop .tab-area ul.nav-tabs li .nav-link.active {
-  background: #BB0B0B;
+  background: #0B6B3A;
   color: #ffffff;
 }
 .rs-single-shop .tab-area ul.nav-tabs li:last-child {
@@ -5170,7 +5170,7 @@ Video CSS
   display: inline;
 }
 .rs-single-shop .tab-area .tab-content .tab-pane .reviews-grid .comment-form .ratings ul li i {
-  color: #BB0B0B;
+  color: #0B6B3A;
   font-weight: normal;
 }
 /*----------------------------------------
@@ -5230,7 +5230,7 @@ Video CSS
   font-weight: 700;
 }
 .rs-cart .cart-wrap table.cart-table .product-name a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-cart .cart-wrap table.cart-table .product-price {
   font-weight: 700;
@@ -5379,7 +5379,7 @@ Video CSS
 }
 .rs-checkout .coupon-toggle .accordion .card {
   border: unset;
-  border-top: 3px solid #BB0B0B;
+  border-top: 3px solid #0B6B3A;
   border-radius: 0;
 }
 .rs-checkout .coupon-toggle .accordion .card .card-header {
@@ -5396,13 +5396,13 @@ Video CSS
 .rs-checkout .coupon-toggle .accordion .card .card-header .card-title button {
   background: unset;
   border: none;
-  color: #BB0B0B;
+  color: #0B6B3A;
   transition: all 0.3s ease;
   outline: none;
   cursor: pointer;
 }
 .rs-checkout .coupon-toggle .accordion .card .card-header .card-title button:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-checkout .coupon-toggle .accordion .card .card-body {
   border: 1px solid #d3ced2;
@@ -5543,7 +5543,7 @@ Video CSS
   color: #666666;
 }
 .rs-my-account .rs-login .form-group label span {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-my-account .rs-login .form-group input {
   width: 100%;
@@ -5557,7 +5557,7 @@ Video CSS
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-my-account .rs-login p {
   font-size: 15px;
@@ -5570,7 +5570,7 @@ Video CSS
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 /*------------------------------------
 	32. Footer Section CSS
@@ -5601,7 +5601,7 @@ Video CSS
   border: 0;
   width: 40px;
   height: 3px;
-  background: #BB0B0B;
+  background: #0B6B3A;
   z-index: 1;
   margin-left: 0;
   bottom: 0;
@@ -5629,7 +5629,7 @@ Video CSS
   position: relative;
 }
 .rs-footer.footer-main-home .footer-top .address-widget li i {
-  color: #BB0B0B;
+  color: #0B6B3A;
   position: absolute;
   left: 0;
 }
@@ -5645,7 +5645,7 @@ Video CSS
   color: #ffffff;
 }
 .rs-footer.footer-main-home .footer-top .address-widget li .desc a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-footer.footer-main-home .footer-top .site-map {
   margin-top: -6px;
@@ -5662,7 +5662,7 @@ Video CSS
   color: #ffffff;
 }
 .rs-footer.footer-main-home .footer-top .site-map li a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-footer.footer-main-home .footer-top .widget-desc {
   margin: 15px 20px 27px 0;
@@ -5685,7 +5685,7 @@ Video CSS
   padding: 15px 20px;
   font-weight: 600;
   color: #ffffff;
-  background: #BB0B0B;
+  background: #0B6B3A;
   position: relative;
   border: none;
   text-transform: capitalize;
@@ -5734,7 +5734,7 @@ Video CSS
   color: #ffffff;
 }
 .rs-footer.footer-main-home .footer-bottom .copyright p a:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-footer.footer-main-home .footer-bottom .footer-social li {
   display: inline-block;
@@ -5747,7 +5747,7 @@ Video CSS
   transition: all .8s ease;
 }
 .rs-footer.footer-main-home .footer-bottom .footer-social li a span i:hover {
-  color: #BB0B0B;
+  color: #0B6B3A;
 }
 .rs-footer.footer-main-home .footer-bottom .footer-social li:last-child {
   margin-right: 0;
@@ -5773,7 +5773,7 @@ Video CSS
   color: #FFF;
   line-height: 36px;
   transition: all 0.3s ease 0s;
-  background: #BB0B0B;
+  background: #0B6B3A;
   margin-left: 2px;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.04);
   display: block;

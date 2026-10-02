@@ -1,0 +1,18 @@
+<h2>Schützen Sie sich vor Betrug</h2>
+<p>Wir nehmen die Bedrohung durch Betrug sehr ernst und haben Richtlinien und Verfahren zum Schutz unserer Kunden und Investoren eingeführt.</p>
+<p>Wir laden Sie ein, wachsam gegenüber Betrugsrisiken und betrügerischen Mitteilungen zu bleiben.</p>
+
+<h2>Wichtige Empfehlungen</h2>
+<p>Seien Sie insbesondere wachsam gegenüber Investitions- und Zahlungsbetrug*, auch wenn Dokumente oder Websites legitim erscheinen.</p>
+<p>Potenzielle Investoren sollten äußerste Vorsicht walten lassen. (WEBSITE_NAME) übernimmt keine Haftung für mögliche Verluste.</p>
+
+<h2>Nicht verbundene Unternehmen</h2>
+<p>Wir bestätigen, dass bestimmte Unternehmen in keiner Weise mit (WEBSITE_NAME) verbunden sind.</p>
+<p>Bei finanziellen Verlusten durch Betrug kontaktieren Sie bitte die zuständigen Behörden und (WEBSITE_EMAIL).</p>
+
+<h2>Arten von Betrug</h2>
+<h3>Investitions- und Zahlungsbetrug*</h3>
+<p>Die Opfer werden aufgefordert, einen Pauschalbetrag zu senden, der angeblich in Anleihen oder fiktive Fonds investiert wird.</p>
+
+<h3>Zahlungsbetrug (Vorschussbetrug)*</h3>
+<p>Die Opfer leisten eine Vorauszahlung an die « Bank », z.&nbsp;B. für « Verwaltungsgebühren » oder « Rechtskosten », bevor ein angeblicher Kredit oder ein Erbe ausgezahlt wird.</p>

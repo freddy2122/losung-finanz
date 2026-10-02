@@ -151,15 +151,6 @@
     {{ translate(576) }}
 </p>
 
-            
-
-            @if(session('request_id'))
-                <div class="cfs-box">
-                    <span class="cfs-box-label">{{ translate(492) }}</span>
-                    <div class="cfs-box-value">#{{ session('request_id') }}</div>
-                </div>
-            @endif
-
             <p style="
     margin-top: 22px;
     font-size: 14px;

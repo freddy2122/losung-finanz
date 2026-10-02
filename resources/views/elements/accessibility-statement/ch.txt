@@ -1,0 +1,21 @@
+<h2>Barrierefreiheit: teilweise konform</h2>
+<p>(WEBSITE_NAME) verpflichtet sich, seine Website barrierefrei zu gestalten. Diese Erklärung gilt für die Website von (WEBSITE_NAME).</p>
+<p>Die Website ist teilweise konform mit RGAA 4.1 Stufe Double-A (AA) aufgrund der unten aufgeführten Nichtkonformitäten.</p>
+<p>Das Konformitätsaudit zeigt, dass 70,77&nbsp;% der RGAA-4.1-Kriterien der Stufe Double-A (AA) eingehalten werden.</p>
+
+<h2>Nicht zugängliche Inhalte</h2>
+<h3>Nichtkonformitäten</h3>
+<ul>
+<li>Einige informative Bilder haben keine detaillierte Beschreibung.</li>
+<li>Informationen werden nur durch Farbe vermittelt.</li>
+<li>Der Kontrast zwischen Text und Hintergrund ist bei einigen Elementen unzureichend.</li>
+<li>Einige Links sind außerhalb des Kontexts nicht eindeutig.</li>
+<li>Einige Skripte sind für Hilfstechnologien nicht zugänglich.</li>
+</ul>
+
+<h2>Erstellung dieser Erklärung</h2>
+<p>Diese Erklärung wurde am 16.04.2025 erstellt und am 15.07.2025 aktualisiert.</p>
+<p><strong>Technologien:</strong> HTML5, CSS3, JavaScript.</p>
+
+<h2>Rückmeldung und Kontakt</h2>
+<p>Bei Problemen mit der Zugänglichkeit kontaktieren Sie uns unter: (WEBSITE_EMAIL).</p>

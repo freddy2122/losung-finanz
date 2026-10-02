@@ -8,16 +8,18 @@ class usefulLinks extends Component
 {
     public $class = null;
     public $contactLink = null;
+    public $privacyLink = null;
 
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($class=null, $contactLink=false)
+    public function __construct($class=null, $contactLink=false, $privacyLink=false)
     {
         $this->class = $class;
         $this->contactLink = $contactLink;
+        $this->privacyLink = $privacyLink;
     }
 
     /**

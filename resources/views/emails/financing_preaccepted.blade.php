@@ -53,6 +53,36 @@
             margin: 16px 0;
         }
 
+        .docs-box {
+            background: #ecfdf5;
+            border: 2px solid #16a34a;
+            border-radius: 14px;
+            padding: 18px;
+            margin: 0 0 18px;
+        }
+
+        .docs-box-title {
+            font-size: 17px;
+            font-weight: 800;
+            color: #14532d;
+            margin: 0 0 10px;
+        }
+
+        .docs-box p {
+            color: #166534;
+        }
+
+        .docs-button {
+            display: inline-block;
+            background: #16a34a;
+            color: #ffffff !important;
+            padding: 12px 18px;
+            border-radius: 10px;
+            font-weight: 800;
+            text-decoration: none;
+            margin-top: 12px;
+        }
+
         .info-row {
             margin-bottom: 14px;
         }
@@ -87,6 +117,7 @@
             color: #28a745;
             text-decoration: none;
         }
+
     </style>
 </head>
 
@@ -94,7 +125,7 @@
 <div class="email-container">
 
     <div class="header">
-        <h1>{{ translate(503) }}</h1>
+        <h1>{{ translate(614) }}</h1>
     </div>
 
     <div class="content">
@@ -106,20 +137,22 @@
 
         <p>{{ translate($greeting) }} <b>{{ $fullname }}</b>,</p>
 
-        <p>{{ translate(491) }}</p>
+        <div class="docs-box">
+            <p class="docs-box-title">{{ translate(646) }}</p>
+            <p>{{ translate(590) }}</p>
+            <p><strong>{{ translate(615) }}</strong></p>
+            @if(!empty($complete_documents_url))
+                <a href="{{ $complete_documents_url }}" class="docs-button">{{ translate(617) }}</a>
+            @endif
+        </div>
 
         <div class="info-box">
-
-            <div class="info-row">
-                <div class="info-label">{{ translate(492) }}</div>
-                <div class="info-value ref">#{{ $request_id ?? '-' }}</div>
-            </div>
 
             <div class="info-row">
                 <div class="info-label">{{ translate(493) }}</div>
                 <div class="info-value">
                     {{ isset($financing['montant_du_pret'])
-                        ? number_format((float)$financing['montant_du_pret'], 0, ',', '.') . ' €'
+                        ? format_loan_money($financing['montant_du_pret'], $financing['devise_du_pret'] ?? loan_currency_code_for_locale())
                         : '' }}
                 </div>
             </div>
@@ -137,9 +170,7 @@
 
         <p>
             {{ translate(497) }}
-            <a href="mailto:{{ SITE_EMAIL }}">{{ SITE_EMAIL }}</a>
-            {{ translate(498) }}
-            <a href="https://wa.me/{{ SITE_PHONE }}" target="_blank">{{ SITE_PHONE }}</a>.
+            <a href="mailto:{{ SITE_EMAIL }}">{{ SITE_EMAIL }}</a>.
         </p>
 
         <p>
@@ -150,7 +181,7 @@
     </div>
 
     <div class="footer">
-        <p>&copy; {{ date('Y') }} <strong>{{ SITE_NAME }}</strong>. {{ translate(372) }}</p>
+        <p>&copy; {{ WEBSITE_CREATED_DATE }} <strong>{{ SITE_NAME }}</strong>. {{ translate(372) }}</p>
     </div>
 
 </div>

@@ -5,26 +5,6 @@
 	<x-breadcrumb></x-breadcrumb>
 	<!-- Banner End -->
 
-	<style>
-		.whatsapp-button {
-			background-color: #25D366 !important; /* Couleur verte WhatsApp */
-			border: none;
-			color: white !important;
-			display: inline-flex;
-			align-items: center;
-			font-weight: 600;
-			transition: background-color 0.3s ease;
-		}
-	
-		.whatsapp-button:hover {
-			background-color: #1ebe5d !important;
-			text-decoration: none;
-		}
-	
-		.whatsapp-button i {
-			font-size: 18px;
-		}
-	</style>
 	
 	
 	<!-- Contact Section Start -->
@@ -37,15 +17,6 @@
 	                        <span class="title">{{ translate(266) }}</span><br><br>
 	                        <p class="title0">{{ translate(251) }}</p>
 	                    </div>
-	                   <div class="address-box mb-25">
-	                       <div class="address-icon">
-	                           <i class="fa fa-home"></i>
-	                       </div>
-	                       <div class="address-text">
-	                            <span class="label">{{ translate(271) }}:</span>
-	                            <a href="tel:{{ SITE_PHONE }}">{{ SITE_PHONE }}</a>
-	                       </div>
-	                   </div>
 	                   <div class="address-box mb-25">
 	                       <div class="address-icon">
 	                           <i class="fa fa-phone"></i>
@@ -64,14 +35,6 @@
 	                           <div class="desc">{!! SITE_ADDRESS !!}</div>
 	                       </div>
 	                   </div>
-					   <div class="btn-part mt-45 md-mt-30">
-						<a class="readon cta-started whatsapp-button" 
-						   href="https://api.whatsapp.com/send?phone={{ SITE_PHONE }}&text={{ translate(304) }}" 
-						   target="_blank">
-							<i class="fa fa-whatsapp" aria-hidden="true" style="margin-right: 8px;"></i>
-							{{ translate(370) }}
-						</a>
-					</div>
 					
 	               </div>
 	            </div> 
@@ -88,9 +51,6 @@
                                     </div> 
                                     <div class="col-lg-6 col-md-6 col-sm-6 mb-25">
                                     	<x-form-input type="email" label="{{ translate(108) }}" name="contact.email" />
-                                    </div>   
-                                    <div class="col-lg-6 col-md-6 col-sm-6 mb-25">
-                                    	<x-form-input type="number" label="{{ translate(273) }}" name="contact.phone" />
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 mb-25">
                                     	<x-form-input type="text" label="{{ translate(109) }}" name="contact.subject" />

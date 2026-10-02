@@ -22,20 +22,6 @@
 		                	<p class="desc-part pb-15">{{ translate($record) }}</p>
 		                @endforeach
 		            </div>
-		            <div class="col-lg-4 pl-36 md-pl-15">
-		            	<x-loan-listing class="services-list"></x-loan-listing>
-		                <div class="services-add mb-50 mt-50">
-		                    <div class="address-wrap mb-35">
-		                        <div class="icon-part">
-		                            <i class="fa fa-whatsapp"></i>
-		                        </div>
-		                    </div>
-		                    <h2 class="title">{{ translate(87) }}</h2>
-		                    <div class="contact">
-		                        <a href="https://api.whatsapp.com/send?phone={{ SITE_PHONE }}&text={{ translate(304) }}" >{{ SITE_PHONE }}</a>
-		                    </div>
-		                </div>
-		            </div>
 		        </div> 
 		   </div> 
 		</div>

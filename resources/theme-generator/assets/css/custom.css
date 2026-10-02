@@ -9,7 +9,7 @@
 }
 
 .text-theme {
-	color: #BB0B0B !important;
+	color: #0B6B3A !important;
 }
 
 .rs-breadcrumbs .breadcrumbs-inner {
@@ -21,7 +21,7 @@
 	margin-bottom: 64px;
 }
 .x-form-section .title {
-	color: #BB0B0B !important;
+	color: #0B6B3A !important;
 	margin: 0;
 }
 
@@ -32,8 +32,8 @@
 }
 
 .form-check-input:checked {
-    background-color: #BB0B0B;
-    border-color: #BB0B0B;
+    background-color: #0B6B3A;
+    border-color: #0B6B3A;
 }
 
 .full-width-header .rs-header .menu-area .logo-area img {

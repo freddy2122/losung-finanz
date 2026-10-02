@@ -1,0 +1,57 @@
+<h2>Politique de protection des données</h2>
+<p>En tant que responsable de traitement, (WEBSITE_NAME) traite vos données personnelles conformément à la réglementation en vigueur, notamment le Règlement général sur la protection des données (RGPD). L'objectif de cette politique est de vous informer clairement sur les traitements que nous opérons sur vos données à caractère personnel.</p>
+<p>(WEBSITE_NAME) vous accompagne dans la recherche d'offres de financement adaptées à votre projet et à votre situation.</p>
+
+<h2>Pourquoi cette politique vous concerne</h2>
+<ul>
+<li>Vous êtes un client potentiel : vos données sont traitées même sans relation contractuelle établie ;</li>
+<li>Vous utilisez nos services ou notre site (WEBSITE_URL) ;</li>
+<li>Vous êtes en relation avec (WEBSITE_NAME), qui partage vos données dans le cadre de ses activités.</li>
+</ul>
+<p>Cette politique complète les informations figurant dans les contrats signés ou dans d'autres supports (sites internet, formulaires, etc.). En cas de contradiction, les dispositions de la présente politique prévaudront sauf stipulations contractuelles contraires.</p>
+
+<h2>Comment collectons-nous vos données ?</h2>
+<ul>
+<li>Directement auprès de vous lorsque vous utilisez nos services, remplissez un formulaire ou naviguez sur nos sites ;</li>
+<li>Indirectement par l'intermédiaire de nos partenaires ;</li>
+<li>Indirectement via des sources externes, publiques ou privées, dans le respect de vos droits et de la réglementation.</li>
+</ul>
+
+<h2>Données collectées</h2>
+<ul>
+<li>Données d'identification : nom, e-mail, numéro WhatsApp ;</li>
+<li>Données relatives à votre demande : montant, durée, objet du financement, situation professionnelle et revenus ;</li>
+<li>Données de navigation : adresse IP, type de navigateur, pages consultées et cookies ;</li>
+<li>Pièces justificatives transmises dans le cadre de votre dossier.</li>
+</ul>
+
+<h2>Pourquoi traitons-nous vos données ?</h2>
+<p>Nous traitons vos données sur les bases juridiques suivantes : exécution de mesures précontractuelles ou contractuelles, intérêt légitime, respect d'obligations légales et, le cas échéant, votre consentement.</p>
+<p>Finalités principales :</p>
+<ul>
+<li>Étude, instruction et suivi de votre demande de financement ;</li>
+<li>Communication concernant votre dossier ;</li>
+<li>Conformité réglementaire et gestion des risques ;</li>
+<li>Amélioration de nos services ;</li>
+<li>Prévention de la fraude et sécurisation du site.</li>
+</ul>
+
+<h2>Durée de conservation</h2>
+<p>Vos données sont conservées pendant la durée nécessaire à la finalité poursuivie, puis archivées ou supprimées conformément à la réglementation applicable.</p>
+
+<h2>Destinataires et transferts</h2>
+<p>Vos données peuvent être communiquées aux services internes de (WEBSITE_NAME), à nos prestataires techniques et, le cas échéant, à nos partenaires impliqués dans l'instruction de votre dossier. Nous ne vendons pas vos données personnelles.</p>
+<p>En cas de transfert hors de l'Union européenne ou de la Suisse, (WEBSITE_NAME) s'assure que des garanties appropriées sont mises en place.</p>
+
+<h2>Sécurité</h2>
+<p>(WEBSITE_NAME) met en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données.</p>
+
+<h2>Vos droits</h2>
+<p>Vous disposez des droits d'accès, de rectification, d'effacement, de limitation, d'opposition, de portabilité et de retrait du consentement le cas échéant.</p>
+<p>Pour exercer vos droits, contactez-nous à (WEBSITE_EMAIL). Vous pouvez également introduire une réclamation auprès de l'autorité de contrôle compétente.</p>
+
+<h2>Cookies</h2>
+<p>Pour plus d'informations, consultez notre politique de gestion des cookies disponible sur ce site.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question relative à cette politique ou à vos données personnelles : (WEBSITE_EMAIL).</p>

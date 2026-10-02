@@ -13,8 +13,6 @@
 <p>Ao abrigo do artigo 6.º da Lei n.º 2004-575 de 21 de junho de 2004 sobre a confiança na economia digital, os utilizadores do website (WEBSITE_URL) são informados da identidade dos vários intervenientes no quadro da sua implementação e monitorização: </p>
 <p>
 <b>Proprietário</b>: (WEBSITE_NAME) – (WEBSITE_ADDRESS)<br>
-<b>Gerente de publicação</b>: (AUTHOR_NAME)<br>
-<b>Webmaster</b>: (WEBMASTER_NAME)<br>
 <b>Diretor de proteção de dados</b>: (WEBSITE_EMAIL)<br>
 </p>
 

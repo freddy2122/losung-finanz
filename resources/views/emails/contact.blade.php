@@ -43,14 +43,6 @@
 																		</td>
 																	</tr>
 																	<tr>
-																		<td align="left" style="font-size:0;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word">
-																			<div style="font-family:Helvetica;font-size:16px;font-weight:400;letter-spacing:0;line-height:1.5;text-align:left;color:#1e293b">
-																				<p style="margin-top: 0;margin-bottom: 0;"><span style="color:#64748b">Téléphone:</span></p>
-																				<p style="margin-top: 0;margin-bottom: 0;"><span style="color:#1e293b"><strong>{{ $data['phone'] }}</strong></span></p>
-																			</div>
-																		</td>
-																	</tr>
-																	<tr>
 																		<td style="background:0 0;font-size:0;word-break:break-word">
 																			<!--[if mso | IE]>
 																			<table role="presentation" border="0" cellpadding="0" cellspacing="0">

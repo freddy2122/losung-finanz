@@ -8,41 +8,11 @@ class Languages extends Model
 {
     public static function get()
     {
-        $languages["en"] = "English";
-        $languages["fr"] = "Français";
-        $languages["de"] = "Deutsch";
-        $languages["bg"] = "български";
-        $languages["da"] = "dansk";
-        $languages["es"] = "Español";
-        $languages["it"] = "italiano";
-        $languages["lb"] = "Lëtzebuergesch";
-        $languages["lt"] = "lietuvių"; 
-        $languages["lv"] = "latviski";
-        $languages["ro"] = "Română";
-        $languages["sv"] = "svenska";
-        $languages["et"] = "eesti keel";
-        $languages["pt"] = "português";
-        $languages["no"] = "norsk";
-        $languages["fi"] = "Suomalainen";
-        $languages["ru"] = "русский";
-        $languages["nl"] = "Nederlands";
-        $languages["sl"] = "Slovenščina";
-        $languages["mn"] = "Монгол";
-        $languages["hu"] = "Magyar";
-        $languages["el"] = "Ελληνικά";
-        $languages["pl"] = "Polskie";
-        $languages["uz"] = "o'zbek";
-        
-        $languages["hr"] = "Hrvatski";
-        $languages["ky"] = "Кыргызча";
-        $languages["hy"] = "հայերեն";
-        $languages["kk"] = "қазақ";
-        $languages["tg"] = "точикон";
-        $languages["tr"] = "Türk";
-        $languages["sk"] = "Slovenský";
-        $languages["sq"] = "Shqiptare";
-
-        return $languages;
+        return [
+            'fr' => 'Français',
+            'pt' => 'português',
+            'de' => 'Deutsch',
+        ];
     }
 
     /**

@@ -27,7 +27,6 @@ class ContactFormRequest extends FormRequest
             "contact.*"         => "required|min:5",
             "contact.name"      => "required|string",
             "contact.email"     => "required|email",
-            "contact.phone"     => "required|string",
             "contact.subject"   => "required|string",
             "contact.message"   => "required|string",
         ];

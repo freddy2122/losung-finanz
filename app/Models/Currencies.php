@@ -11,8 +11,9 @@ class Currencies extends Model
         return [
             'USD',
             'EUR',
-            'CHF',
             'CAD',
+            'PLN',
+            'SEK',
             'XPF',
             'GPB',
         ];

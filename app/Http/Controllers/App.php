@@ -22,10 +22,38 @@ class App extends Controller
 	}
 
 	/**
+	 * Politique de confidentialité
+	 */
+	public function privacy_policy(){
+		return view('pages.privacy-policy');
+	}
+
+	/**
 	 * Politique de cookie
 	 */
 	public function cookie_policy(){
 		return view('pages.cookie-policy');
+	}
+
+	/**
+	 * Déclaration d'accessibilité
+	 */
+	public function accessibility_statement(){
+		return view('pages.accessibility-statement');
+	}
+
+	/**
+	 * Politique de divulgation de vulnérabilités
+	 */
+	public function vulnerability_disclosure(){
+		return view('pages.vulnerability-disclosure');
+	}
+
+	/**
+	 * Risques de fraude
+	 */
+	public function fraud_risks(){
+		return view('pages.fraud-risks');
 	}
 
 	/**

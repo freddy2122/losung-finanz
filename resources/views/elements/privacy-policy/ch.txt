@@ -1,0 +1,18 @@
+<h2>Datenschutzrichtlinie</h2>
+<p>Als Verantwortlicher verarbeitet (WEBSITE_NAME) Ihre personenbezogenen Daten gemäß der DSGVO und dem anwendbaren schweizerischen Datenschutzrecht. Diese Richtlinie informiert Sie über die Verarbeitung Ihrer Daten bei Nutzung von (WEBSITE_URL).</p>
+<p>(WEBSITE_NAME) unterstützt Sie bei der Suche nach Finanzierungsangeboten schweizer Bankpartner unter Einhaltung der FINMA-Anforderungen.</p>
+
+<h2>Erhebung und Zwecke</h2>
+<ul>
+<li>Identifikationsdaten: Name, E-Mail, WhatsApp-Nummer;</li>
+<li>Antragsdaten: Betrag, Laufzeit, Zweck, Beruf und Einkommen;</li>
+<li>Navigationsdaten und Cookies;</li>
+<li>Einreichungsunterlagen für Ihr Dossier.</li>
+</ul>
+<p>Zwecke: Bearbeitung Ihres Finanzierungsantrags, Kommunikation, Compliance, Betrugsprävention und Verbesserung unserer Dienste.</p>
+
+<h2>Aufbewahrung, Empfänger und Sicherheit</h2>
+<p>Daten werden nur so lange gespeichert wie erforderlich und an interne Teams, Dienstleister und Partner weitergegeben, soweit nötig. Ein Verkauf personenbezogener Daten findet nicht statt.</p>
+
+<h2>Ihre Rechte</h2>
+<p>Sie haben Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch und Datenübertragbarkeit. Kontakt: (WEBSITE_EMAIL).</p>

@@ -1,0 +1,20 @@
+<h2>Protégez-vous contre la fraude</h2>
+<p>Nous prenons la menace de fraude très au sérieux et nous avons mis en place des politiques et des procédures pour protéger nos clients et nos investisseurs.</p>
+<p>Nous vous invitons, en tant que clients, investisseurs et partenaires commerciaux, à rester vigilants face au risque de fraude et aux communications frauduleuses, afin de nous aider à lutter contre la fraude au niveau mondial.</p>
+
+<h2>Recommandations importantes</h2>
+<p>Nous vous recommandons en particulier de rester attentifs face aux dangers de fraude, notamment la fraude aux investissements et aux paiements*, même si les documents ou les sites Internet font référence à de véritables produits et apparaissent légitimes.</p>
+<p>Les investisseurs potentiels doivent faire preuve d'une extrême prudence. (WEBSITE_NAME) déclinera toute responsabilité concernant les pertes potentielles que vous pourriez subir.</p>
+
+<h2>Sociétés non affiliées</h2>
+<p>Si une entité se présentant sous un nom proche du nôtre vous contacte, assurez-vous qu'elle est bien affiliée à (WEBSITE_NAME) avant de lui transmettre des informations ou des fonds. En cas de doute, contactez-nous directement à l'adresse : (WEBSITE_EMAIL).</p>
+<p>Si vous avez perdu de l'argent suite à une escroquerie, nous vous invitons à contacter les autorités compétentes de votre pays, ainsi que (WEBSITE_NAME) à l'adresse : (WEBSITE_EMAIL).</p>
+
+<h2>Types de fraudes</h2>
+<h3>Fraude aux investissements et aux paiements*</h3>
+<p>Dans le cadre d'une fraude aux investissements et aux paiements, la victime est invitée à envoyer une somme forfaitaire qui sera utilisée pour investir dans des obligations ou dans un fonds fictif(s) offert(s) par la « banque ».</p>
+
+<h3>Fraude aux paiements (fraude aux avances de frais)*</h3>
+<p>Dans le cadre d'une fraude aux paiements (ou fraude aux avances de frais), la victime effectue un paiement d'avance en faveur de la « banque », afin de recevoir un service. Il peut par exemple s'agir de « frais administratifs » pour un prêt ou de « frais juridiques » pour permettre à la « banque » de traiter un « héritage » sous la forme d'une somme forfaitaire. Il est alors demandé à la victime de réaliser le paiement avant que le prêt ne soit accepté ou que la somme ne soit perçue, après quoi les escrocs ne donneront plus jamais de nouvelles.</p>
+
+<p><em>* Ces descriptions sont fournies à titre informatif pour sensibiliser nos clients et partenaires.</em></p>

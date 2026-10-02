@@ -38,6 +38,9 @@ class Financing extends Mailable
                 'geo_detectee' => $this->data['geo_detectee'],
                 'location_match' => $this->data['location_match'],
                 'request_id' => $this->data['request_id'] ?? null,
+                'client_language' => $this->data['client_language'] ?? null,
+                'preliminary_information' => $this->data['preliminary_information'] ?? null,
+                'additional_information' => $this->data['additional_information'] ?? null,
             ]);
     }
 }

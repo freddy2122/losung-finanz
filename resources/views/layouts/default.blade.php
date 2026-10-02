@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     
+@php
+    $googleTagManagerId = trim((string) (defined('GOOGLE_TAG_MANAGER_ID') ? GOOGLE_TAG_MANAGER_ID : ''));
+    $googleAdsId = trim((string) (defined('GOOGLE_ADS_ID') ? GOOGLE_ADS_ID : ''));
+@endphp
 
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17651418820"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17651418820');
-</script>
+    @if ($googleTagManagerId)
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer',@json($googleTagManagerId));
+        </script>
+        <!-- End Google Tag Manager -->
+    @endif
+    @if ($googleAdsId)
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ rawurlencode($googleAdsId) }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', @json($googleAdsId));
+        </script>
+    @endif
 
     <!-- meta tag -->
     <meta charset="utf-8">
@@ -56,24 +72,15 @@
     <link rel="stylesheet" type="text/css" href="{{ asset_css('responsive.css') }}">
     <!-- responsive css -->
     <link rel="stylesheet" type="text/css" href="{{ asset_css('custom.css') }}">
-    
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17045015802">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17045015802');
-</script>
-
-
-
-    
 </head>
 
 <body class="defult-home">
+    @if ($googleTagManagerId)
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ rawurlencode($googleTagManagerId) }}"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    @endif
 
     <div class="offwrap"></div>
 
@@ -110,11 +117,6 @@
                                             <i class="fi fi-rr-envelope-plus"></i>
                                             <a href="mailto:{{ SITE_EMAIL }}">{{ SITE_EMAIL }}</a>
                                         </li>
-                                        <li>
-                                            <i class="fi fi-rr-phone-call"></i>
-                                            <a
-                                                href="https://api.whatsapp.com/send?phone={{ SITE_PHONE }}&text={{ translate(304) }}">{{ SITE_PHONE }}</a>
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -134,29 +136,30 @@
 
                 <!-- Menu Start -->
                 <div class="menu-area menu-sticky">
+                    @php
+                        $siteLanguages = [
+                            'fr' => '🇫🇷',
+                            'de' => '🇦🇹',
+                        ];
+                        $currentLocale = app()->getLocale();
+                    @endphp
                     <div class="container">
                         <div class="row-table">
                             <div class="col-cell header-logo">
                                 <div class="logo-area">
-                                    <a href="{{ routeWithLocale('site.index') }}">
-                                        <img class="normal-logo" src="{{ site_logo() }}" alt="logo">
-                                        <img class="sticky-logo" src="{{ site_logo() }}" alt="logo">
-                                    </a>
+                                    <x-site-logo variant="header" />
                                 </div>
                             </div>
-                            <div class="col-cell">
+                            <div class="col-cell header-menu-desktop hidden-md">
                                 <div class="rs-menu-area">
                                     <div class="main-menu">
                                         <nav class="rs-menu hidden-md">
                                             <ul class="nav-menu">
-                                                <li>
+                                                <!-- <li>
                                                     <a
                                                         href="{{ routeWithLocale('site.index') }}">{{ translate(69) }}</a>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">{{ translate(70) }}</a>
-                                                    <x-useful-links class="sub-menu"></x-useful-links>
-                                                </li>
+                                                </li> -->
+                                               
                                                 <li class="menu-item-has-children">
                                                     <a
                                                         href="{{ routeWithLocale('site.loan_offers') }}">{{ translate(113) }}</a>
@@ -176,7 +179,22 @@
                                     </div> <!-- //.main-menu -->
                                 </div>
                             </div>
-                            <div class="col-cell">
+                            <div class="col-cell header-lang-mobile">
+                                <label class="header-lang-switcher">
+                                    <select
+                                        class="header-lang-select"
+                                        aria-label="{{ strtoupper($currentLocale) }}"
+                                        onchange="if (this.value) { window.location.href = this.value; }"
+                                    >
+                                        @foreach($siteLanguages as $lang => $flag)
+                                            <option value="/{{ $lang }}" @selected($lang === $currentLocale)>
+                                                {{ $flag }} {{ strtoupper($lang) }}
+                                            </option>
+                                        @endforeach
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="col-cell header-actions">
                                 <div class="expand-btn-inner">
                                     <ul>
                                         <li class="btn-quote">
@@ -218,9 +236,7 @@
                     </div>
                     <div class="rs-offcanvas-inner">
                         <div class="canvas-logo">
-                            <a href="{{ routeWithLocale('site.index') }}">
-                                <img src="{{ site_logo() }}" alt="logo">
-                            </a>
+                            <x-site-logo variant="canvas" />
                         </div>
                         <div class="offcanvas-text">
                             <p>{{ translate(297) }}</p>
@@ -250,12 +266,6 @@
                                         <i class="flaticon-call"></i>
                                     </div>
                                     <div class="info-content">
-                                        <h4 class="title">{{ translate(271) }}</h4>
-                                        <em>{{ SITE_PHONE }}</em>
-                                    </div>
-                                </div>
-                            </div>
-                            <ul class="social">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
@@ -281,8 +291,23 @@
                             <a href="{{ routeWithLocale('site.index') }}">{{ translate(69) }}</a>
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="#">{{ translate(70) }}</a>
-                            <x-useful-links class="sub-menu"></x-useful-links>
+                            <a href="#">
+                                <span class="lang-flag">
+                                    {{ $siteLanguages[$currentLocale] ?? '🌐' }}
+                                    {{ strtoupper($currentLocale) }}
+                                </span>
+                            </a>
+                            <ul class="sub-menu">
+                                @foreach($siteLanguages as $lang => $flag)
+                                    @if($lang !== $currentLocale)
+                                        <li>
+                                            <a href="/{{ $lang }}">
+                                                {{ $flag }} {{ strtoupper($lang) }}
+                                            </a>
+                                        </li>
+                                    @endif
+                                @endforeach
+                            </ul>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="{{ routeWithLocale('site.loan_offers') }}">{{ translate(113) }}</a>
@@ -325,7 +350,6 @@
                                 </div>
                                 <div class="info-content">
                                     <h4 class="title">{{ translate(271) }}</h4>
-                                    <em>{{ SITE_PHONE }}</em>
                                 </div>
                             </div>
                         </div>
@@ -369,12 +393,6 @@
                                 <div class="desc">{!! SITE_ADDRESS !!}</div>
                             </li>
                             <li>
-                                <i class="fi fi-rr-phone-call"></i>
-                                <div class="desc">
-                                    <a href="tel:{{ SITE_PHONE }}">{{ SITE_PHONE }}</a>
-                                </div>
-                            </li>
-                            <li>
                                 <i class="fi fi-rr-envelope-plus"></i>
                                 <div class="desc">
                                     <a href="mailto:{{ SITE_EMAIL }}">{{ SITE_EMAIL }}</a>
@@ -382,11 +400,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 pl-75 md-pl-15 md-mb-10">
+                    <div class="col-lg-4 md-pl-15 md-mb-10">
                         <h3 class="footer-title">{{ translate(65) }}</h3>
-                        <x-useful-links class="site-map" contactLink="true"></x-useful-links>
+                        <x-useful-links class="site-map site-map-grid" contactLink="true" privacyLink="true"></x-useful-links>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-2">
                         <h3 class="footer-title">{{ translate(256) }}</h3>
                         <p>
                             <input type="email" autocomplete="nope" name="email"
@@ -400,25 +418,8 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="row y-middle">
-                    <div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
-                        <ul class="footer-social md-mb-7">
-                            <li>
-                                <a href="#" target="_blank"><span><i class="fa fa-facebook"></i></span></a>
-                            </li>
-                            <li>
-                                <a href="# " target="_blank"><span><i class="fa fa-twitter"></i></span></a>
-                            </li>
-
-                            <li>
-                                <a href="# " target="_blank"><span><i class="fa fa-pinterest-p"></i></span></a>
-                            </li>
-                            <li>
-                                <a href="# " target="_blank"><span><i class="fa fa-instagram"></i></span></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="copyright text-lg-start text-center ">
+                    <div class="col-12">
+                        <div class="copyright text-center">
                             <p>{!! site_copyright() !!}</p>
                         </div>
                     </div>
@@ -458,6 +459,7 @@
     <script src="{{ asset_js('contact.form.js') }}"></script>
     <!-- main js -->
     <script src="{{ asset_js('main.js') }}"></script>
+    @stack('scripts')
     <x-crisp-chat></x-crisp-chat>
 </body>
 

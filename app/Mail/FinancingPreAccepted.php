@@ -19,9 +19,11 @@ class FinancingPreAccepted extends Mailable
 
     public function build()
     {
+        $currencyCode = $this->data['financing']['devise_du_pret'] ?? loan_currency_code_for_locale();
+
         return $this->subject(
             '✔ ' . (($this->data['financing']['montant_du_pret'] ?? '')
-                ? number_format((float)$this->data['financing']['montant_du_pret'], 0, ',', '.') . ' € - '
+                ? format_loan_money($this->data['financing']['montant_du_pret'], $currencyCode) . ' - '
                 : '') . translate(489)
         )
             ->view('emails.financing_preaccepted')
@@ -29,6 +31,7 @@ class FinancingPreAccepted extends Mailable
                 'fullname' => $this->data['name'],
                 'financing' => $this->data['financing'],
                 'request_id' => $this->data['request_id'] ?? '',
+                'complete_documents_url' => $this->data['complete_documents_url'] ?? '',
             ]);
     }
 }

@@ -1,0 +1,42 @@
+<h2>Data protection policy</h2>
+<p>As data controller, (WEBSITE_NAME) processes your personal data in accordance with applicable regulations, including the GDPR. This policy explains how we collect, use, store and protect your information when you use (WEBSITE_URL).</p>
+<p>(WEBSITE_NAME) helps you find financing offers suited to your project and your situation.</p>
+
+<h2>Why this policy applies to you</h2>
+<ul>
+<li>You are a potential customer: your data is processed even without an established contractual relationship;</li>
+<li>You use our services or website;</li>
+<li>You are in a relationship with (WEBSITE_NAME) within the scope of its activities.</li>
+</ul>
+
+<h2>How we collect your data</h2>
+<ul>
+<li>Directly from you when you use our services or complete forms;</li>
+<li>Indirectly through our partners;</li>
+<li>Indirectly from external public or private sources, in compliance with applicable law.</li>
+</ul>
+
+<h2>Data collected</h2>
+<ul>
+<li>Identification data: name, email, WhatsApp number;</li>
+<li>Request data: amount, duration, purpose, employment and income;</li>
+<li>Browsing data: IP address, browser type, pages viewed and cookies;</li>
+<li>Supporting documents submitted for your file.</li>
+</ul>
+
+<h2>Purposes of processing</h2>
+<ul>
+<li>Review and follow-up of your financing request;</li>
+<li>Communication regarding your file;</li>
+<li>Regulatory compliance and risk management;</li>
+<li>Service improvement and fraud prevention.</li>
+</ul>
+
+<h2>Retention, recipients and security</h2>
+<p>Data is retained for the period necessary for the stated purposes. It may be shared with internal teams, technical providers and partners involved in processing your request. We do not sell your personal data. Appropriate security measures are implemented.</p>
+
+<h2>Your rights</h2>
+<p>You have the right of access, rectification, erasure, restriction, objection, portability and withdrawal of consent where applicable. Contact us at (WEBSITE_EMAIL).</p>
+
+<h2>Cookies and contact</h2>
+<p>See our cookie policy for more information. Questions: (WEBSITE_EMAIL).</p>
