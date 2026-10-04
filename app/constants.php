@@ -1,7 +1,7 @@
 <?php
 
 define('CHAT_API_KEY', '');
-define('DEFAULT_SITE_LANGUAGE', 'fr');
+define('DEFAULT_SITE_LANGUAGE', 'de');
 define('ALLOW_WEBPAGE_LOADER', false);
 
 define('SITE_NAME', 'Losung Finanz');

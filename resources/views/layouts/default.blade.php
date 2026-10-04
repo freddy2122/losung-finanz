@@ -179,21 +179,6 @@
                                     </div> <!-- //.main-menu -->
                                 </div>
                             </div>
-                            <div class="col-cell header-lang-mobile">
-                                <label class="header-lang-switcher">
-                                    <select
-                                        class="header-lang-select"
-                                        aria-label="{{ strtoupper($currentLocale) }}"
-                                        onchange="if (this.value) { window.location.href = this.value; }"
-                                    >
-                                        @foreach($siteLanguages as $lang => $flag)
-                                            <option value="/{{ $lang }}" @selected($lang === $currentLocale)>
-                                                {{ $flag }} {{ strtoupper($lang) }}
-                                            </option>
-                                        @endforeach
-                                    </select>
-                                </label>
-                            </div>
                             <div class="col-cell header-actions">
                                 <div class="expand-btn-inner">
                                     <ul>

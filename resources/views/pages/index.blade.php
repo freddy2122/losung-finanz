@@ -188,6 +188,9 @@
         </div>
     </div>
 </section>
+<section>
+    @include('pages.robotique')
+</section>
 
 <style>
 .jp-final-hero{
