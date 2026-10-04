@@ -12,9 +12,10 @@ define('WEBSITE_CREATED_DATE', '2015');
 define('SITE_ADDRESS', 'Pl. Charles Rogier 15, 1210, Saint-Josse-ten-Noode');
 
 define('SITE_EMAIL', 'kontakt@losung-finanz.com');
+define('BANQUE_NAME', 'BNP PARIBAS');
 
 define('WEBMASTER_NAME', '');
-define('AUTHOR_NAME', '');
+define('AUTHOR_NAME', 'Liblik TULLIO');
 define('TEAG', '2%');
 define('LEGAL_FULL_NAME', 'Losung Finanz');
 define('LEGAL_COMPANY_FORM', '');

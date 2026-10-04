@@ -1,0 +1,17 @@
+<h2>Condições de reembolso</h2>
+<p>Esta página explica as condições de reembolso aplicáveis aos financiamentos concedidos por (WEBSITE_NAME). As condições precisas de cada crédito (montante, prazo, mensalidade, taxa) são comunicadas ao mutuário antes da assinatura do contrato.</p>
+
+<h2>Plano de reembolso</h2>
+<p>O reembolso é efetuado em mensalidades fixas, de acordo com o plano definido no contrato de crédito. Os débitos são efetuados na data acordada, na conta bancária comunicada no momento da subscrição.</p>
+
+<h2>Reembolso antecipado</h2>
+<p>O mutuário pode reembolsar antecipadamente, no todo ou em parte, o capital em dívida, em qualquer momento, após informar (WEBSITE_NAME). O reembolso antecipado é aceite após confirmação do montante em dívida e das modalidades de pagamento.</p>
+
+<h2>Atraso no pagamento</h2>
+<p>Em caso de atraso no pagamento, o mutuário é convidado a contactar (WEBSITE_NAME) o mais rapidamente possível, para encontrarmos juntos uma solução adequada à sua situação. Podem aplicar-se juros de mora, em conformidade com o contrato e a legislação aplicável.</p>
+
+<h2>Dificuldades de reembolso</h2>
+<p>Se tiver dificuldades em cumprir as suas mensalidades, contacte-nos o mais rapidamente possível através de (WEBSITE_EMAIL). Analisaremos consigo as soluções possíveis (reestruturação do plano, adiamento de mensalidade).</p>
+
+<h2>Contacte-nos</h2>
+<p>Para qualquer questão relacionada com o reembolso do seu crédito, pode escrever-nos para (WEBSITE_EMAIL).</p>

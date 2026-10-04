@@ -1,5 +1,5 @@
 <h2>Éditeur du site</h2>
-<p><strong>(WEBSITE_NAME)</strong></p>
+<p><strong>BNP PARIBAS</strong></p>
 <p>
 	<b>Adresse :</b> (WEBSITE_ADDRESS)<br>
 	<b>Email :</b> (WEBSITE_EMAIL)

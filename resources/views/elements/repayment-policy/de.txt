@@ -1,0 +1,279 @@
+<h2>1. Zweck dieser Richtlinie</h2>
+<p>Diese Rückzahlungs- und Regularisierungsrichtlinie („Richtlinie") legt die Grundsätze fest, die für Anträge auf Rückerstattung, Stornierung, vorzeitige Rückzahlung, Zahlungsregularisierung und Reklamation im Zusammenhang mit den von (WEBSITE_NAME) („wir", „unser") angebotenen Finanzierungsdienstleistungen gelten.</p>
+<p>Sie dient dazu, klar und transparent darzustellen, unter welchen Bedingungen ein Betrag erstattet, reguliert oder zurückgezahlt werden kann.</p>
+<p>Diese Richtlinie ersetzt nicht den Finanzierungsvertrag, das Kreditangebot, die allgemeinen Geschäftsbedingungen oder jedes andere für den Kunden geltende Vertragsdokument.</p>
+<p>Im Falle eines Widerspruchs gelten die zwingenden Bestimmungen des anwendbaren Rechts sowie die Bestimmungen des Finanzierungsvertrags vorrangig.</p>
+
+<h2>2. Allgemeine Grundsätze</h2>
+<p>(WEBSITE_NAME) wendet folgende Grundsätze an:</p>
+<ul>
+<li>Transparenz der finanziellen Bedingungen;</li>
+<li>vorherige Information des Kunden;</li>
+<li>Nachvollziehbarkeit von Zahlungen und Rückerstattungen;</li>
+<li>Schutz personenbezogener Daten;</li>
+<li>faire Behandlung von Anträgen;</li>
+<li>Einhaltung des Finanzierungsvertrags;</li>
+<li>Einhaltung der geltenden Vorschriften.</li>
+</ul>
+<p>Keine Rückerstattung erfolgt allein aufgrund eines unüberprüften Antrags, wenn Identitäts-, Kontoinhaber- oder Compliance-Prüfungen gesetzlich erforderlich sind.</p>
+
+<h2>3. Nicht angenommener Finanzierungsantrag</h2>
+<p>Die Einreichung eines Finanzierungsantrags stellt keine Garantie für die Gewährung eines Kredits dar.</p>
+<p>Jeder Antrag wird gemäß den Eignungskriterien, den vom Antragsteller mitgeteilten Angaben und den geltenden Vorschriften geprüft.</p>
+<p>Bei Ablehnung vor dem endgültigen Abschluss des Finanzierungsvertrags schuldet der Antragsteller kein Kreditkapital.</p>
+<p>Wurde ein Betrag vor der Ablehnung gezahlt, hängt dessen Behandlung von der genauen Art der Zahlung, der tatsächlich erbrachten Leistung und dem geltenden Vertrag bzw. den geltenden Bedingungen ab.</p>
+<p>Jeder Betrag, dessen Rückerstattung gesetzlich oder vertraglich geschuldet ist, wird gemäß dem anwendbaren Verfahren zurückerstattet.</p>
+
+<h2>4. Stornierung vor Auszahlung der Mittel</h2>
+<p>Beantragt ein Kunde die Stornierung seiner Finanzierung vor Auszahlung der Mittel, prüft (WEBSITE_NAME) den Antrag gemäß dem Vertrag und den geltenden Vorschriften.</p>
+<p>Die etwaige Rückerstattung bereits gezahlter Beträge hängt insbesondere ab von:</p>
+<ul>
+<li>der Art der Zahlung;</li>
+<li>dem Zahlungsdatum;</li>
+<li>der Art der bereits erbrachten Leistungen;</li>
+<li>den vertraglichen Bestimmungen;</li>
+<li>dem gegebenenfalls anwendbaren Widerrufsrecht;</li>
+<li>den geltenden Vorschriften.</li>
+</ul>
+<p>Das Kapital eines nicht ausgezahlten Kredits kann nicht als dem Kunden bereits geliehener Betrag angesehen werden.</p>
+
+<h2>5. Widerruf</h2>
+<p>Besteht für die betreffende Finanzierung ein gesetzliches Widerrufsrecht, kann der Kunde dieses Recht innerhalb der Frist und gemäß den Modalitäten ausüben, die durch die geltenden Vorschriften und die ihm übergebenen Vertragsunterlagen vorgesehen sind.</p>
+<p>Der Widerruf ist über den im Angebot oder Vertrag angegebenen Weg zu erklären.</p>
+<p>Führt der Widerruf gesetzlich zur Rückerstattung bereits gezahlter Beträge, gelten die Modalitäten und Fristen der Rückerstattung gemäß dem anwendbaren Recht.</p>
+<p>Die Regeln können je nach Art der Finanzierung und dem Land, in dem der Vertrag geschlossen wird, variieren.</p>
+
+<h2>6. Auszahlung der Finanzierung</h2>
+<p>Nach Abschluss des Vertrags und Erfüllung etwaiger Vorbedingungen werden die Mittel gemäß den im Vertrag vorgesehenen Modalitäten ausgezahlt.</p>
+<p>Sobald die Mittel dem Kunden tatsächlich zur Verfügung gestellt wurden, gelten die im Vertrag vorgesehenen Rückzahlungspflichten.</p>
+<p>Jeder nach der Auszahlung gestellte Stornierungs- oder Rückerstattungsantrag ist daher gemäß den für vorzeitige Rückzahlung oder Kündigung der Finanzierung geltenden Regeln zu behandeln.</p>
+
+<h2>7. Reguläre Rückzahlung der Finanzierung</h2>
+<p>Die reguläre Rückzahlung erfolgt gemäß dem dem Kunden mitgeteilten Zahlungsplan.</p>
+<p>Der Zahlungsplan gibt insbesondere an:</p>
+<ul>
+<li>die Höhe der Raten;</li>
+<li>die Fälligkeitstermine;</li>
+<li>die Laufzeit der Finanzierung;</li>
+<li>das verbleibende Kapital;</li>
+<li>die geltenden Zinsen;</li>
+<li>etwaige gesetzlich zulässige Gebühren;</li>
+<li>den insgesamt zurückzuzahlenden Betrag.</li>
+</ul>
+<p>Der Kunde muss sicherstellen, dass vor jedem Fälligkeitstermin die erforderlichen Mittel verfügbar sind.</p>
+
+<h2>8. Vollständige vorzeitige Rückzahlung</h2>
+<p>Sofern die Vorschriften und der Vertrag dies zulassen, kann der Kunde die vollständige vorzeitige Rückzahlung seiner Finanzierung beantragen.</p>
+<p>Der Antrag ist an die zuständige Abteilung von (WEBSITE_NAME) zu richten.</p>
+<p>Nach Eingang und Prüfung des Antrags teilt (WEBSITE_NAME) dem Kunden, soweit zutreffend, Folgendes mit:</p>
+<ul>
+<li>das verbleibende Kapital;</li>
+<li>etwaige bis zum Rückzahlungsdatum geschuldete Zinsen;</li>
+<li>etwaige zulässige Gebühren oder Entschädigungen;</li>
+<li>den zur Beendigung der Finanzierung erforderlichen Gesamtbetrag;</li>
+<li>die Zahlungsanweisungen.</li>
+</ul>
+<p>Die Finanzierung gilt erst nach Eingang und Bestätigung der vollständigen Zahlung als beglichen.</p>
+
+<h2>9. Teilweise vorzeitige Rückzahlung</h2>
+<p>Sofern der Vertrag und die geltenden Vorschriften dies zulassen, kann der Kunde eine teilweise vorzeitige Rückzahlung beantragen.</p>
+<p>Der etwaige Mindestbetrag sowie die Auswirkungen auf den Zahlungsplan richten sich nach dem Vertrag.</p>
+<p>Je nach Finanzierungsbedingungen kann eine Teilrückzahlung führen zu:</p>
+<ul>
+<li>einer Verkürzung der Laufzeit der Finanzierung;</li>
+<li>einer Verringerung der Ratenhöhe;</li>
+<li>oder einer anderen vertraglich vorgesehenen Änderung.</li>
+</ul>
+<p>Jede Änderung muss schriftlich bestätigt werden.</p>
+
+<h2>10. Gebühren oder Entschädigungen bei vorzeitiger Rückzahlung</h2>
+<p>Gebühren oder Entschädigungen für vorzeitige Rückzahlung dürfen nicht verlangt werden, wenn dies gesetzlich untersagt ist.</p>
+<p>Ist eine Entschädigung gesetzlich zulässig, muss sie die geltenden Grenzen und die im Vertrag vorgesehenen Bedingungen einhalten.</p>
+<p>(WEBSITE_NAME) berechnet keine Gebühren, die nicht in den Vertragsunterlagen vorgesehen oder durch geltende Vorschriften zulässig sind.</p>
+
+<h2>11. Irrtümlich geleistete Zahlung</h2>
+<p>Ist ein Kunde der Ansicht, eine Zahlung irrtümlich geleistet zu haben, muss er (WEBSITE_NAME) schnellstmöglich kontaktieren.</p>
+<p>Der Antrag muss folgende Angaben enthalten:</p>
+<ul>
+<li>Name und Vorname;</li>
+<li>Dossier-Referenz;</li>
+<li>Zahlungsdatum;</li>
+<li>Betrag;</li>
+<li>verwendetes Zahlungsmittel;</li>
+<li>Grund des Antrags;</li>
+<li>Zahlungsnachweis.</li>
+</ul>
+<p>(WEBSITE_NAME) nimmt vor jeder Rückerstattung die erforderlichen Überprüfungen vor.</p>
+<p>Ist eine Rückerstattung tatsächlich geschuldet, erfolgt diese über das geeignete Zahlungsmittel und gemäß den geltenden Sicherheitsregeln.</p>
+
+<h2>12. Doppelte Zahlung</h2>
+<p>Wurde derselbe Betrag zweimal für dieselbe Rate oder dieselbe Verpflichtung gezahlt, kann der Kunde eine Überprüfung beantragen.</p>
+<p>Nach Bestätigung der doppelten Zahlung kann der überzählige Betrag je nach Vertrag und geltenden Vorschriften:</p>
+<ul>
+<li>erstattet werden;</li>
+<li>mit Zustimmung des Kunden auf eine kommende Rate angerechnet werden;</li>
+<li>oder gemäß jeder anderen gesetzlich zulässigen Modalität behandelt werden.</li>
+</ul>
+
+<h2>13. Zahlung über dem geschuldeten Betrag</h2>
+<p>Zahlt ein Kunde einen höheren Betrag als tatsächlich geschuldet, überprüft (WEBSITE_NAME) die Situation des betreffenden Kontos.</p>
+<p>Nach Prüfung kann der überschüssige Betrag:</p>
+<ul>
+<li>mit einer bestehenden Schuld verrechnet werden;</li>
+<li>auf eine künftige Rate angerechnet werden, sofern zulässig;</li>
+<li>oder dem Kunden erstattet werden, sofern tatsächlich ein erstattungsfähiges Guthaben besteht.</li>
+</ul>
+
+<h2>14. Unbezahlte Rate</h2>
+<p>Bei Nichtzahlung einer Rate kann (WEBSITE_NAME) den Kunden über die Situation informieren und ihn auffordern, sein Konto zu regularisieren.</p>
+<p>Je nach Vorschriften und Vertrag können bei Verzug Konsequenzen entstehen, insbesondere Verzugszinsen oder -gebühren, sofern diese gesetzlich zulässig sind.</p>
+<p>Es werden keine Verzugsgebühren erhoben, die den vertraglichen oder gesetzlichen Bestimmungen widersprechen.</p>
+
+<h2>15. Finanzielle Schwierigkeiten</h2>
+<p>Ein Kunde, der finanzielle Schwierigkeiten hat, wird gebeten, (WEBSITE_NAME) so schnell wie möglich zu kontaktieren.</p>
+<p>Je nach Situation und den im Vertrag und den Vorschriften vorgesehenen Möglichkeiten können verschiedene Lösungen geprüft werden, insbesondere:</p>
+<ul>
+<li>Regularisierung einer Rate;</li>
+<li>Änderung des Zahlungsplans;</li>
+<li>etwaiger Aufschub;</li>
+<li>Umstrukturierung der Rückzahlung;</li>
+<li>vorzeitige Rückzahlung;</li>
+<li>andere zulässige einvernehmliche Lösung.</li>
+</ul>
+<p>Ein Antrag auf einvernehmliche Behandlung setzt die Zahlungspflichten des Kunden nicht automatisch aus.</p>
+<p>Jede Änderung muss ausdrücklich angenommen und schriftlich bestätigt werden.</p>
+
+<h2>16. Rückerstattungsantrag eines Kunden</h2>
+<p>Jeder Rückerstattungsantrag ist über die auf der Website von (WEBSITE_NAME) veröffentlichten offiziellen Kontaktdaten zu stellen.</p>
+<p>Zum Schutz der Kunden vor Betrug kann (WEBSITE_NAME) Informationen verlangen, die Folgendes überprüfen lassen:</p>
+<ul>
+<li>die Identität des Antragstellers;</li>
+<li>die Vertragsreferenz;</li>
+<li>die Herkunft der Zahlung;</li>
+<li>das verwendete Konto oder Zahlungsmittel;</li>
+<li>die Umstände des Antrags.</li>
+</ul>
+<p>Es dürfen keine vertraulichen Bankinformationen oder Sicherheitscodes per E-Mail oder an eine nicht verifizierte Person weitergegeben werden.</p>
+
+<h2>17. Bearbeitungsfristen</h2>
+<p>Die Bearbeitungsfrist hängt von der Art des Antrags ab.</p>
+<p>Ein Antrag kann eine zusätzliche Frist erfordern, wenn er Folgendes umfasst:</p>
+<ul>
+<li>eine Identitätsprüfung;</li>
+<li>eine Bankprüfung;</li>
+<li>eine Untersuchung einer angefochtenen Transaktion;</li>
+<li>eine Compliance-Prüfung;</li>
+<li>eine Anforderung zusätzlicher Nachweise;</li>
+<li>das Eingreifen eines Zahlungsdienstleisters oder einer Bank.</li>
+</ul>
+<p>Der Kunde wird informiert, wenn zusätzliche Informationen erforderlich sind.</p>
+<p>Die für die Rückerstattung geltende Frist richtet sich in jedem Fall nach den geltenden Vorschriften und dem betreffenden Vertrag.</p>
+
+<h2>18. Art der Rückerstattung</h2>
+<p>Wird eine Rückerstattung genehmigt, bevorzugt (WEBSITE_NAME), sofern rechtlich und technisch möglich, die Rückerstattung über dasselbe Zahlungsmittel oder dasselbe Konto, das für die ursprüngliche Transaktion verwendet wurde.</p>
+<p>Ein anderes Mittel kann verwendet werden, wenn dies aus Gründen der Sicherheit, Compliance oder Vorschriften erforderlich ist.</p>
+<p>(WEBSITE_NAME) kann eine Rückerstattung auf ein Konto eines Dritten ablehnen, wenn diese Transaktion ein Betrugsrisiko darstellt oder gegen geltende Vorschriften verstößt.</p>
+
+<h2>19. Betrug oder nicht autorisierte Transaktion</h2>
+<p>Stellt ein Kunde eine Transaktion fest, die er nach eigenen Angaben nicht autorisiert hat, muss er umgehend (WEBSITE_NAME) und, falls erforderlich, sein Kreditinstitut kontaktieren.</p>
+<p>Der Antrag kann überprüft werden.</p>
+<p>Die etwaige Rückerstattung hängt insbesondere ab von:</p>
+<ul>
+<li>der Art der Transaktion;</li>
+<li>den Umständen;</li>
+<li>den verfügbaren Nachweisen;</li>
+<li>den gesetzlichen Pflichten;</li>
+<li>den für das verwendete Zahlungsmittel geltenden Regeln.</li>
+</ul>
+<p>Eine Rückerstattung kann vor Abschluss dieser Überprüfung nicht garantiert werden.</p>
+
+<h2>20. Streitigkeiten mit Dritten</h2>
+<p>Betrifft eine Zahlung einen Dienstleister oder unabhängigen Dritten, kann (WEBSITE_NAME) den Kunden bitten, sich direkt an diesen Dritten zu wenden, wenn dieser für die Erbringung der betreffenden Ware oder Dienstleistung verantwortlich ist.</p>
+<p>Dies schmälert nicht die gesetzlichen Rechte des Kunden gegenüber (WEBSITE_NAME), sofern diese bestehen.</p>
+
+<h2>21. Tod des Kreditnehmers</h2>
+<p>Im Todesfall eines Kreditnehmers hängen die Auswirkungen auf die Finanzierung insbesondere ab von:</p>
+<ul>
+<li>dem Vertrag;</li>
+<li>etwaigen abgeschlossenen Versicherungen;</li>
+<li>den geltenden Vorschriften;</li>
+<li>der Erbschaftssituation.</li>
+</ul>
+<p>Die gesetzlichen Vertreter oder Erben müssen (WEBSITE_NAME) kontaktieren, damit der Fall geprüft werden kann.</p>
+
+<h2>22. Kreditversicherung</h2>
+<p>Ist eine Versicherung mit der Finanzierung verbunden, richten sich die Deckungsbedingungen nach dem Versicherungsvertrag.</p>
+<p>(WEBSITE_NAME) garantiert nicht automatisch die Übernahme einer Schuld durch eine Versicherung.</p>
+<p>Der Kunde muss den Schadensfall gemäß den in seinem Versicherungsvertrag vorgesehenen Bedingungen und Fristen melden.</p>
+
+<h2>23. Abschluss der Finanzierung</h2>
+<p>Nach vollständiger Zahlung der tatsächlich geschuldeten Beträge schließt (WEBSITE_NAME) die Finanzierung gemäß seinen Verfahren ab.</p>
+<p>Sofern vorgesehen, kann der Kunde ein Dokument erhalten, das Folgendes bestätigt:</p>
+<ul>
+<li>die vollständige Rückzahlung;</li>
+<li>das Fehlen eines Restsaldos;</li>
+<li>den Abschluss der Finanzierung.</li>
+</ul>
+<p>Der tatsächliche Abschluss erfolgt nach Überprüfung und Erfassung der Zahlung.</p>
+
+<h2>24. Reklamationen</h2>
+<p>Jede Reklamation bezüglich einer Rückerstattung ist an den Kundendienst von (WEBSITE_NAME) zu richten.</p>
+<p>Die Reklamation sollte, soweit möglich, Folgendes enthalten:</p>
+<ul>
+<li>die Identität des Kunden;</li>
+<li>die Vertragsreferenz;</li>
+<li>eine genaue Beschreibung des Problems;</li>
+<li>die betreffenden Daten;</li>
+<li>die betreffenden Beträge;</li>
+<li>verfügbare Nachweise.</li>
+</ul>
+<p>(WEBSITE_NAME) prüft Reklamationen gemäß seinen Verfahren und den geltenden regulatorischen Pflichten.</p>
+
+<h2>25. Mediation und Rechtsmittel</h2>
+<p>Sieht das geltende Recht ein Mediationsverfahren oder ein außergerichtliches Streitbeilegungsverfahren vor, kann der Kunde dieses unter den gesetzlich vorgesehenen Bedingungen nutzen.</p>
+<p>Informationen über die zuständige Schlichtungsstelle sind dem Kunden, sofern ein solches Verfahren verpflichtend ist, gemäß den geltenden Regeln mitzuteilen.</p>
+<p>Der Kunde behält zudem die gesetzlich vorgesehenen Rechtsmittel.</p>
+
+<h2>26. Datenschutz</h2>
+<p>Im Rahmen eines Rückerstattungsantrags mitgeteilte Informationen werden gemäß der Datenschutzrichtlinie von (WEBSITE_NAME) und den geltenden Datenschutzvorschriften verarbeitet.</p>
+<p>Bankinformationen und Identifikationsdokumente werden nur in dem für die Bearbeitung und Absicherung des Antrags erforderlichen Umfang verarbeitet.</p>
+
+<h2>27. Betrugsprävention</h2>
+<p>Zu Ihrer Sicherheit fragt (WEBSITE_NAME) niemals nach:</p>
+<ul>
+<li>Ihrem Bank-Passwort;</li>
+<li>Ihrer PIN;</li>
+<li>Ihrem Bank-Authentifizierungscode;</li>
+<li>Ihrem per SMS erhaltenen Bestätigungscode;</li>
+<li>Ihren Online-Banking-Zugangsdaten.</li>
+</ul>
+<p>Jede ungewöhnliche Zahlungs- oder Überweisungsanfrage sollte bei (WEBSITE_NAME) anhand der auf seiner Website veröffentlichten offiziellen Kontaktdaten überprüft werden.</p>
+
+<h2>28. Änderungen der Richtlinie</h2>
+<p>(WEBSITE_NAME) kann diese Richtlinie ändern, wenn dies erforderlich ist, um Folgendem Rechnung zu tragen:</p>
+<ul>
+<li>der Weiterentwicklung seiner Dienstleistungen;</li>
+<li>regulatorischen Änderungen;</li>
+<li>Änderungen seiner Verfahren;</li>
+<li>neuen Sicherheitsanforderungen.</li>
+</ul>
+<p>Es gilt die zum jeweiligen Zeitpunkt auf der Website veröffentlichte Fassung, vorbehaltlich der gesetzlichen Regeln zu Vertragsänderungen.</p>
+
+<h2>29. Anwendbares Recht</h2>
+<p>Diese Richtlinie wird gemäß dem für den jeweiligen Dienst und Vertrag geltenden Recht ausgelegt.</p>
+<p>Gelten zwingende Vorschriften des Rechts des Landes des Kunden, haben diese Vorrang vor jeder abweichenden Bestimmung dieser Richtlinie.</p>
+
+<h2>30. Kontakt</h2>
+<p>
+	<b>(WEBSITE_NAME)</b><br>
+	Kundendienst und Rückerstattungen<br>
+	<b>Adresse:</b> (WEBSITE_ADDRESS)<br>
+	<b>E-Mail:</b> (WEBSITE_EMAIL)<br>
+	<b>Website:</b> (WEBSITE_URL)
+</p>
+<p>Um die Bearbeitung eines Antrags zu beschleunigen, geben Sie bitte Ihre Dossier- oder Finanzierungsreferenz an.</p>
+
+<h2>Wichtiger Hinweis</h2>
+<p>Diese Richtlinie ist ein Informationsmodell, das die Rückerstattungsverfahren klar darstellen soll. Sie stellt für sich allein weder ein Kreditangebot noch eine Rückzahlungsverpflichtung dar.</p>
+<p>Die endgültigen, für jeden Kunden geltenden Bedingungen sind die in seinem Finanzierungsvertrag und den geltenden Vorschriften vorgesehenen.</p>
+<p>(WEBSITE_NAME) veröffentlicht ausschließlich Informationen zu seinen Zulassungen, Lizenzen, Finanzpartnern, Gebühren, Zinssätzen, Fristen und Garantien, die real, überprüfbar und rechtlich zutreffend sind.</p>

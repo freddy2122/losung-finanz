@@ -1,3 +1,11 @@
+<h2>Responsable du traitement</h2>
+<p>
+	<b>Responsable de traitement :</b> (AUTHOR_NAME)<br>
+	<b>Éditeur du site :</b> BNP PARIBAS<br>
+	<b>Adresse :</b> (WEBSITE_ADDRESS)<br>
+	<b>Email :</b> (WEBSITE_EMAIL)
+</p>
+
 <h2>Politique de protection des données</h2>
 <p>En tant que responsable de traitement, (WEBSITE_NAME) traite vos données personnelles conformément à la réglementation en vigueur, notamment le Règlement général sur la protection des données (RGPD). L'objectif de cette politique est de vous informer clairement sur les traitements que nous opérons sur vos données à caractère personnel.</p>
 <p>(WEBSITE_NAME) vous accompagne dans la recherche d'offres de financement adaptées à votre projet et à votre situation.</p>

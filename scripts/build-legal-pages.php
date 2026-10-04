@@ -315,7 +315,7 @@ HTML,
 $privacy = [
     'fr' => <<<'HTML'
 <h2>Politique de protection des données</h2>
-<p>En tant que responsable de traitement, (WEBSITE_NAME) traite vos données personnelles conformément à la réglementation en vigueur, notamment le Règlement général sur la protection des données (RGPD) et la législation suisse applicable. L'objectif de cette politique est de vous informer clairement sur les traitements que nous opérons sur vos données à caractère personnel.</p>
+<p>En tant que responsable de traitement (AUTHOR_NAME), (WEBSITE_NAME) traite vos données personnelles conformément à la réglementation en vigueur, notamment le Règlement général sur la protection des données (RGPD) et la législation suisse applicable. L'objectif de cette politique est de vous informer clairement sur les traitements que nous opérons sur vos données à caractère personnel.</p>
 <p>(WEBSITE_NAME) vous accompagne dans la recherche d'offres de financement auprès de partenaires bancaires suisses, dans le respect des standards suisses et des exigences de la FINMA (Autorité fédérale de surveillance des marchés financiers).</p>
 
 <h2>Pourquoi cette politique vous concerne</h2>

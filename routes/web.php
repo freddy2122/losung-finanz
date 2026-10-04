@@ -41,6 +41,7 @@ Route::prefix('/{language}')->middleware([ValidLanguage::class])->group(function
         Route::get('/accessibility', [\App\Http\Controllers\App::class, 'accessibility_statement'])->name('site.accessibility_statement');
         Route::get('/vulnerability-disclosure', [\App\Http\Controllers\App::class, 'vulnerability_disclosure'])->name('site.vulnerability_disclosure');
         Route::get('/fraud-risks', [\App\Http\Controllers\App::class, 'fraud_risks'])->name('site.fraud_risks');
+        Route::get('/repayment-policy', [\App\Http\Controllers\App::class, 'repayment_policy'])->name('site.repayment_policy');
     });
 });
 

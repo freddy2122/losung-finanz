@@ -15,6 +15,8 @@ $contents = [
 
 <h2>Responsable du traitement</h2>
 <p>Le responsable du traitement des données est <strong>(WEBSITE_NAME)</strong>, (LEGAL_COMPANY_FORM), dont le siège est situé à (WEBSITE_ADDRESS). Pour toute question relative à vos données personnelles, vous pouvez nous contacter à l'adresse suivante : (WEBSITE_EMAIL).</p>
+
+
 <p>(LEGAL_ACPR)</p>
 
 <h2>Données collectées</h2>

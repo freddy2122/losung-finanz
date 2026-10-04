@@ -283,6 +283,7 @@ if ( ! function_exists('current_page_name') ) {
 		$pages[] = array( "site.accessibility_statement", "687" );
 		$pages[] = array( "site.vulnerability_disclosure", "688" );
 		$pages[] = array( "site.fraud_risks", "689" );
+		$pages[] = array( "site.repayment_policy", "700" );
 		$pages[] = array( "site.helps", "80" );
 		$pages[] = array( "site.loan_offers", "113" );
 		$pages[] = array( "site.index", "69" );

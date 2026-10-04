@@ -57,6 +57,13 @@ class App extends Controller
 	}
 
 	/**
+	 * Modalités de remboursement
+	 */
+	public function repayment_policy(){
+		return view('pages.repayment-policy');
+	}
+
+	/**
 	 * Comment ça marche ?
 	 */
 	public function how_it_works(){

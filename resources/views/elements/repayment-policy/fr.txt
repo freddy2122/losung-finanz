@@ -1,0 +1,279 @@
+<h2>1. Objet de la présente politique</h2>
+<p>La présente Politique de remboursement et de régularisation (« Politique ») définit les principes applicables aux demandes de remboursement, d'annulation, de remboursement anticipé, de régularisation de paiement et de contestation concernant les services de financement proposés par (WEBSITE_NAME) (« nous », « notre »).</p>
+<p>Elle a pour objectif de présenter de manière claire et transparente les conditions dans lesquelles une somme peut être remboursée, régularisée ou restituée.</p>
+<p>Cette Politique ne remplace pas le contrat de financement, l'offre de crédit, les conditions générales ou tout autre document contractuel applicable au client.</p>
+<p>En cas de contradiction, les dispositions impératives de la législation applicable ainsi que les stipulations du contrat de financement prévalent.</p>
+
+<h2>2. Principes généraux</h2>
+<p>(WEBSITE_NAME) applique les principes suivants :</p>
+<ul>
+<li>transparence des conditions financières ;</li>
+<li>information préalable du client ;</li>
+<li>traçabilité des paiements et remboursements ;</li>
+<li>protection des données personnelles ;</li>
+<li>traitement équitable des demandes ;</li>
+<li>respect du contrat de financement ;</li>
+<li>respect de la réglementation applicable.</li>
+</ul>
+<p>Aucun remboursement ne peut être effectué sur la base d'une simple demande non vérifiée lorsque des contrôles d'identité, de propriété du compte ou de conformité sont légalement nécessaires.</p>
+
+<h2>3. Demande de financement non acceptée</h2>
+<p>Le dépôt d'une demande de financement ne constitue pas une garantie d'obtention d'un prêt.</p>
+<p>Toute demande fait l'objet d'une étude conformément aux critères d'éligibilité, aux informations communiquées par le demandeur et à la réglementation applicable.</p>
+<p>En cas de refus avant la conclusion définitive du contrat de financement, aucun capital de prêt n'est dû par le demandeur.</p>
+<p>Lorsqu'une somme a été versée avant le refus, son traitement dépend de la nature exacte du paiement, de la prestation effectivement fournie et du contrat ou des conditions applicables.</p>
+<p>Toute somme dont le remboursement est légalement ou contractuellement dû sera restituée selon la procédure applicable.</p>
+
+<h2>4. Annulation avant le déblocage des fonds</h2>
+<p>Lorsqu'un client demande l'annulation de son financement avant le déblocage des fonds, (WEBSITE_NAME) examine la demande conformément au contrat et à la réglementation applicable.</p>
+<p>Le remboursement éventuel des sommes déjà versées dépend notamment :</p>
+<ul>
+<li>de la nature du paiement ;</li>
+<li>de la date du paiement ;</li>
+<li>de la nature des services déjà fournis ;</li>
+<li>des dispositions contractuelles ;</li>
+<li>du droit de rétractation éventuellement applicable ;</li>
+<li>de la réglementation applicable.</li>
+</ul>
+<p>Le capital d'un prêt qui n'a pas été débloqué ne peut pas être considéré comme une somme déjà prêtée au client.</p>
+
+<h2>5. Rétractation</h2>
+<p>Lorsque le financement concerné bénéficie d'un droit légal de rétractation, le client peut exercer ce droit dans le délai et selon les modalités prévus par la réglementation applicable et par les documents contractuels qui lui ont été remis.</p>
+<p>La demande de rétractation doit être effectuée par le moyen indiqué dans l'offre ou le contrat.</p>
+<p>Lorsque la rétractation entraîne légalement la restitution de sommes déjà versées, les modalités et délais de restitution sont ceux prévus par la législation applicable.</p>
+<p>Les règles peuvent varier selon le type de financement et le pays dans lequel le contrat est conclu.</p>
+
+<h2>6. Déblocage du financement</h2>
+<p>Après conclusion du contrat et accomplissement des éventuelles conditions préalables, les fonds sont débloqués conformément aux modalités prévues dans le contrat.</p>
+<p>Une fois les fonds effectivement mis à disposition du client, les obligations de remboursement prévues dans le contrat deviennent applicables.</p>
+<p>Toute demande d'annulation ou de remboursement postérieure au déblocage doit donc être traitée selon les règles applicables au remboursement anticipé ou à la résiliation du financement.</p>
+
+<h2>7. Remboursement normal du financement</h2>
+<p>Le remboursement normal s'effectue conformément à l'échéancier communiqué au client.</p>
+<p>L'échéancier indique notamment :</p>
+<ul>
+<li>le montant des échéances ;</li>
+<li>les dates d'échéance ;</li>
+<li>la durée du financement ;</li>
+<li>le capital restant dû ;</li>
+<li>les intérêts applicables ;</li>
+<li>les éventuels frais légalement autorisés ;</li>
+<li>le montant total à rembourser.</li>
+</ul>
+<p>Le client doit veiller à disposer des fonds nécessaires avant chaque date d'échéance.</p>
+
+<h2>8. Remboursement anticipé total</h2>
+<p>Lorsque la réglementation et le contrat le permettent, le client peut demander le remboursement anticipé intégral de son financement.</p>
+<p>La demande doit être adressée au service compétent de (WEBSITE_NAME).</p>
+<p>Après réception et vérification de la demande, (WEBSITE_NAME) communique au client, lorsque cela est applicable :</p>
+<ul>
+<li>le capital restant dû ;</li>
+<li>les intérêts éventuellement dus jusqu'à la date de remboursement ;</li>
+<li>les éventuels frais ou indemnités autorisés ;</li>
+<li>le montant total nécessaire pour clôturer le financement ;</li>
+<li>les instructions de paiement.</li>
+</ul>
+<p>Le financement est considéré comme soldé uniquement après réception et validation du paiement complet.</p>
+
+<h2>9. Remboursement anticipé partiel</h2>
+<p>Lorsque le contrat et la réglementation applicable l'autorisent, le client peut demander un remboursement anticipé partiel.</p>
+<p>Le montant minimum éventuellement applicable ainsi que les conséquences sur l'échéancier sont déterminés conformément au contrat.</p>
+<p>Selon les conditions du financement, un remboursement partiel peut entraîner :</p>
+<ul>
+<li>une réduction de la durée du financement ;</li>
+<li>une réduction du montant des échéances ;</li>
+<li>ou une autre modification prévue contractuellement.</li>
+</ul>
+<p>Toute modification doit être confirmée par écrit.</p>
+
+<h2>10. Frais ou indemnités de remboursement anticipé</h2>
+<p>Aucun frais ou indemnité de remboursement anticipé ne peut être exigé lorsqu'il est interdit par la réglementation applicable.</p>
+<p>Lorsqu'une indemnité est légalement autorisée, elle doit respecter les limites applicables et les conditions prévues dans le contrat.</p>
+<p>(WEBSITE_NAME) ne facture aucun frais qui n'est pas prévu dans les documents contractuels ou autorisé par la réglementation applicable.</p>
+
+<h2>11. Paiement effectué par erreur</h2>
+<p>Lorsqu'un client estime avoir effectué un paiement par erreur, il doit contacter (WEBSITE_NAME) dans les meilleurs délais.</p>
+<p>La demande doit indiquer :</p>
+<ul>
+<li>nom et prénom ;</li>
+<li>référence du dossier ;</li>
+<li>date du paiement ;</li>
+<li>montant ;</li>
+<li>moyen de paiement utilisé ;</li>
+<li>motif de la demande ;</li>
+<li>justificatif du paiement.</li>
+</ul>
+<p>(WEBSITE_NAME) procède aux vérifications nécessaires avant toute restitution.</p>
+<p>Lorsqu'un remboursement est effectivement dû, celui-ci est effectué selon le moyen de paiement approprié et conformément aux règles de sécurité applicables.</p>
+
+<h2>12. Paiement en double</h2>
+<p>Lorsqu'un même montant a été payé deux fois pour une même échéance ou une même obligation, le client peut demander une vérification.</p>
+<p>Après confirmation du double paiement, la somme excédentaire peut, selon le contrat et la réglementation applicable :</p>
+<ul>
+<li>être remboursée ;</li>
+<li>être affectée à une prochaine échéance avec l'accord du client ;</li>
+<li>ou être traitée selon toute autre modalité légalement applicable.</li>
+</ul>
+
+<h2>13. Paiement supérieur au montant dû</h2>
+<p>Lorsqu'un client verse une somme supérieure au montant effectivement dû, (WEBSITE_NAME) vérifie la situation du compte concerné.</p>
+<p>Après vérification, l'excédent peut être :</p>
+<ul>
+<li>imputé sur une dette existante ;</li>
+<li>affecté à une échéance future lorsque cela est autorisé ;</li>
+<li>ou remboursé au client lorsqu'il existe effectivement un solde créditeur remboursable.</li>
+</ul>
+
+<h2>14. Échéance impayée</h2>
+<p>En cas de non-paiement d'une échéance, (WEBSITE_NAME) peut informer le client de la situation et lui demander de régulariser son compte.</p>
+<p>Selon la réglementation et le contrat, des conséquences peuvent s'appliquer en cas de retard, notamment des intérêts ou frais de retard lorsqu'ils sont légalement autorisés.</p>
+<p>Aucun frais de retard ne sera appliqué contrairement aux dispositions contractuelles ou réglementaires applicables.</p>
+
+<h2>15. Difficultés financières</h2>
+<p>Un client qui rencontre des difficultés financières est invité à contacter (WEBSITE_NAME) le plus rapidement possible.</p>
+<p>Selon la situation et les possibilités prévues par le contrat et la réglementation, différentes solutions peuvent être examinées, notamment :</p>
+<ul>
+<li>régularisation d'une échéance ;</li>
+<li>modification de l'échéancier ;</li>
+<li>report éventuel ;</li>
+<li>réaménagement du remboursement ;</li>
+<li>remboursement anticipé ;</li>
+<li>autre solution amiable autorisée.</li>
+</ul>
+<p>Une demande de traitement amiable ne suspend pas automatiquement les obligations de paiement du client.</p>
+<p>Toute modification doit être formellement acceptée et confirmée par écrit.</p>
+
+<h2>16. Demande de remboursement d'un client</h2>
+<p>Toute demande de remboursement doit être adressée par les coordonnées officielles publiées sur le site de (WEBSITE_NAME).</p>
+<p>Afin de protéger les clients contre les fraudes, (WEBSITE_NAME) peut demander des informations permettant de vérifier :</p>
+<ul>
+<li>l'identité du demandeur ;</li>
+<li>la référence du contrat ;</li>
+<li>l'origine du paiement ;</li>
+<li>le compte ou moyen de paiement utilisé ;</li>
+<li>les circonstances de la demande.</li>
+</ul>
+<p>Aucune information bancaire confidentielle ou code de sécurité ne doit être communiqué par e-mail ou à une personne non vérifiée.</p>
+
+<h2>17. Délais de traitement</h2>
+<p>Le délai de traitement dépend de la nature de la demande.</p>
+<p>Une demande peut nécessiter un délai supplémentaire lorsqu'elle implique :</p>
+<ul>
+<li>une vérification d'identité ;</li>
+<li>une vérification bancaire ;</li>
+<li>une enquête concernant une opération contestée ;</li>
+<li>un contrôle de conformité ;</li>
+<li>une demande de justificatifs supplémentaires ;</li>
+<li>l'intervention d'un établissement de paiement ou d'une banque.</li>
+</ul>
+<p>Le client est informé lorsque des informations supplémentaires sont nécessaires.</p>
+<p>Le délai applicable au remboursement est, dans tous les cas, celui prévu par la législation et le contrat concernés.</p>
+
+<h2>18. Mode de remboursement</h2>
+<p>Lorsqu'un remboursement est approuvé, (WEBSITE_NAME) privilégie, lorsque cela est légalement et techniquement possible, le remboursement vers le même moyen de paiement ou le même compte que celui utilisé pour l'opération initiale.</p>
+<p>Un autre moyen peut être utilisé lorsqu'il est nécessaire pour des raisons de sécurité, de conformité ou de réglementation.</p>
+<p>(WEBSITE_NAME) peut refuser un remboursement vers un compte appartenant à un tiers lorsque cette opération présente un risque de fraude ou n'est pas autorisée par la réglementation applicable.</p>
+
+<h2>19. Fraude ou opération non autorisée</h2>
+<p>Lorsqu'un client constate une opération qu'il affirme ne pas avoir autorisée, il doit contacter immédiatement (WEBSITE_NAME) et, lorsque cela est nécessaire, son établissement bancaire.</p>
+<p>La demande peut faire l'objet d'une vérification.</p>
+<p>Le remboursement éventuel dépend notamment :</p>
+<ul>
+<li>de la nature de l'opération ;</li>
+<li>des circonstances ;</li>
+<li>des preuves disponibles ;</li>
+<li>des obligations légales ;</li>
+<li>des règles applicables au moyen de paiement utilisé.</li>
+</ul>
+<p>Un remboursement ne peut être garanti avant la conclusion de cette vérification.</p>
+
+<h2>20. Litiges avec un tiers</h2>
+<p>Lorsqu'un paiement concerne un prestataire ou un tiers indépendant, (WEBSITE_NAME) peut demander au client de contacter directement ce tiers lorsque celui-ci est responsable de la fourniture du bien ou du service concerné.</p>
+<p>Cela ne prive pas le client de ses droits légaux à l'égard de (WEBSITE_NAME) lorsque ceux-ci existent.</p>
+
+<h2>21. Décès de l'emprunteur</h2>
+<p>En cas de décès d'un emprunteur, les conséquences sur le financement dépendent notamment :</p>
+<ul>
+<li>du contrat ;</li>
+<li>des assurances éventuellement souscrites ;</li>
+<li>de la réglementation applicable ;</li>
+<li>de la situation successorale.</li>
+</ul>
+<p>Les représentants légaux ou ayants droit doivent contacter (WEBSITE_NAME) afin de permettre l'examen du dossier.</p>
+
+<h2>22. Assurance emprunteur</h2>
+<p>Lorsqu'une assurance est associée au financement, les conditions de prise en charge sont celles du contrat d'assurance.</p>
+<p>(WEBSITE_NAME) ne garantit pas automatiquement la prise en charge d'une dette par une assurance.</p>
+<p>Le client doit déclarer le sinistre conformément aux conditions et délais prévus dans son contrat d'assurance.</p>
+
+<h2>23. Clôture du financement</h2>
+<p>Après paiement intégral des sommes effectivement dues, (WEBSITE_NAME) procède à la clôture du financement conformément à ses procédures.</p>
+<p>Lorsque cela est prévu, le client peut recevoir un document confirmant :</p>
+<ul>
+<li>le remboursement intégral ;</li>
+<li>l'absence de solde restant dû ;</li>
+<li>la clôture du financement.</li>
+</ul>
+<p>La clôture effective intervient après vérification et enregistrement du paiement.</p>
+
+<h2>24. Réclamations</h2>
+<p>Toute réclamation relative à un remboursement doit être adressée au service clientèle de (WEBSITE_NAME).</p>
+<p>La réclamation doit, dans la mesure du possible, comporter :</p>
+<ul>
+<li>l'identité du client ;</li>
+<li>la référence du contrat ;</li>
+<li>la description précise du problème ;</li>
+<li>les dates concernées ;</li>
+<li>les montants concernés ;</li>
+<li>les justificatifs disponibles.</li>
+</ul>
+<p>(WEBSITE_NAME) examine les réclamations conformément à ses procédures et aux obligations réglementaires applicables.</p>
+
+<h2>25. Médiation et recours</h2>
+<p>Lorsque la réglementation applicable prévoit un dispositif de médiation ou de règlement extrajudiciaire des litiges, le client peut utiliser ce dispositif dans les conditions prévues par la loi.</p>
+<p>Les informations concernant le médiateur compétent, lorsqu'un tel dispositif est obligatoire, doivent être communiquées au client conformément aux règles applicables.</p>
+<p>Le client conserve également les droits de recours prévus par la législation applicable.</p>
+
+<h2>26. Protection des données</h2>
+<p>Les informations communiquées dans le cadre d'une demande de remboursement sont traitées conformément à la politique de confidentialité de (WEBSITE_NAME) et à la réglementation applicable en matière de protection des données.</p>
+<p>Les informations bancaires et les documents d'identification sont traités uniquement dans la mesure nécessaire au traitement et à la sécurisation de la demande.</p>
+
+<h2>27. Prévention contre les fraudes</h2>
+<p>Pour votre sécurité, (WEBSITE_NAME) ne demande jamais :</p>
+<ul>
+<li>votre mot de passe bancaire ;</li>
+<li>votre code PIN ;</li>
+<li>votre code d'authentification bancaire ;</li>
+<li>votre code de validation reçu par SMS ;</li>
+<li>vos identifiants de banque en ligne.</li>
+</ul>
+<p>Toute demande inhabituelle de paiement ou de transfert doit être vérifiée auprès de (WEBSITE_NAME) à partir des coordonnées officielles publiées sur son site.</p>
+
+<h2>28. Modifications de la politique</h2>
+<p>(WEBSITE_NAME) peut modifier la présente Politique lorsque cela est nécessaire pour tenir compte :</p>
+<ul>
+<li>de l'évolution de ses services ;</li>
+<li>de changements réglementaires ;</li>
+<li>de modifications de ses procédures ;</li>
+<li>de nouvelles exigences de sécurité.</li>
+</ul>
+<p>La version applicable est celle publiée sur le site à la date concernée, sous réserve des règles légales relatives aux modifications contractuelles.</p>
+
+<h2>29. Droit applicable</h2>
+<p>La présente Politique est interprétée conformément au droit applicable au service et au contrat concernés.</p>
+<p>Lorsque les règles impératives du droit du pays du client s'appliquent, elles prévalent sur toute disposition contraire de la présente Politique.</p>
+
+<h2>30. Contact</h2>
+<p>
+	<b>(WEBSITE_NAME)</b><br>
+	Service clientèle et remboursements<br>
+	<b>Adresse :</b> (WEBSITE_ADDRESS)<br>
+	<b>Email :</b> (WEBSITE_EMAIL)<br>
+	<b>Site :</b> (WEBSITE_URL)
+</p>
+<p>Pour accélérer le traitement d'une demande, veuillez indiquer votre numéro de dossier ou référence de financement.</p>
+
+<h2>Avis important</h2>
+<p>La présente politique est un modèle d'information destiné à présenter les procédures de remboursement de manière claire. Elle ne constitue pas, à elle seule, une offre de crédit ni un engagement de remboursement.</p>
+<p>Les conditions définitives applicables à chaque client sont celles prévues dans son contrat de financement et par la réglementation applicable.</p>
+<p>(WEBSITE_NAME) ne publie que des informations relatives à ses agréments, licences, partenaires financiers, frais, taux, délais et garanties qui sont réelles, vérifiables et légalement applicables.</p>

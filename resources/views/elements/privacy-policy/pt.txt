@@ -1,3 +1,10 @@
+<h2>Data controller</h2>
+<p>
+	<b>Website publisher:</b> (WEBSITE_NAME)<br>
+	<b>Address:</b> (WEBSITE_ADDRESS)<br>
+	<b>Email:</b> (WEBSITE_EMAIL)
+</p>
+
 <h2>Data protection policy</h2>
 <p>As data controller, (WEBSITE_NAME) processes your personal data in accordance with applicable regulations, including the GDPR. This policy explains how we collect, use, store and protect your information when you use (WEBSITE_URL).</p>
 <p>(WEBSITE_NAME) helps you find financing offers suited to your project and your situation.</p>

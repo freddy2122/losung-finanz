@@ -9,6 +9,7 @@
         <li><a href="{{ routeWithLocale('site.accessibility_statement') }}">{{ translate(687) }}</a></li>
         <li><a href="{{ routeWithLocale('site.vulnerability_disclosure') }}">{{ translate(688) }}</a></li>
         <li><a href="{{ routeWithLocale('site.fraud_risks') }}">{{ translate(689) }}</a></li>
+        <li><a href="{{ routeWithLocale('site.repayment_policy') }}">{{ translate(700) }}</a></li>
     @endif
     <li><a href="{{ routeWithLocale('site.cookie_policy') }}">{{ translate(77) }}</a></li>
     <li><a href="{{ routeWithLocale('site.how_it_works') }}">{{ translate(78) }}</a></li>
