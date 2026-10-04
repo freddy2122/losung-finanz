@@ -9,7 +9,7 @@ define('SITE_LOGO_NAME', 'Losung Finanz');
 define('SITE_LOGO_PRIMARY', "Losung\u{00A0}");
 define('SITE_LOGO_ACCENT', 'Finanz');
 define('WEBSITE_CREATED_DATE', '2015');
-define('SITE_ADDRESS', '200 Rue de la Croix Nivert, 75015 Paris, France');
+define('SITE_ADDRESS', 'Pl. Charles Rogier 15, 1210, Saint-Josse-ten-Noode');
 
 define('SITE_EMAIL', 'kontakt@losung-finanz.com');
 
