@@ -8,6 +8,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Support\Facades\Storage;
 
 class FinancingCompletedAdmin extends Mailable
 {
@@ -22,7 +23,7 @@ class FinancingCompletedAdmin extends Mailable
 
     public function build()
     {
-        return $this->subject($this->data['subject'])
+        $mail = $this->subject($this->data['subject'])
             ->view('emails.financing_completed_admin')
             ->with([
                 'request_id' => $this->data['request_id'],
@@ -41,5 +42,17 @@ class FinancingCompletedAdmin extends Mailable
                 'passport' => $this->data['passport'],
                 'bank_statement' => $this->data['bank_statement'] ?? null,
             ]);
+
+        foreach (['identity_front', 'identity_back', 'passport', 'bank_statement'] as $key) {
+            $relativePath = $this->data[$key] ?? null;
+
+            if ($relativePath && Storage::disk('local')->exists($relativePath)) {
+                $mail->attach(Storage::disk('local')->path($relativePath), [
+                    'as' => $key . '.' . pathinfo($relativePath, PATHINFO_EXTENSION),
+                ]);
+            }
+        }
+
+        return $mail;
     }
 }
