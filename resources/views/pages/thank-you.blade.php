@@ -87,7 +87,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     gtag('event', 'conversion', {
-        'send_to': 'AW-18330475088/VJfkCJSSz-IcENC006RE'
+        'send_to': 'AW-16696590793/VJfkCJSSz-IcENC006RE'
     });
 });
 </script>
@@ -98,7 +98,7 @@ window.addEventListener('load', function () {
     console.log('Conversion Google Ads envoyée');
 
     gtag('event', 'conversion', {
-        'send_to': 'AW-18330475088/VJfkCJSSz-IcENC006RE'
+        'send_to': 'AW-16696590793/VJfkCJSSz-IcENC006RE'
     });
 });
 </script>

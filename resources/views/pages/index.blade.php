@@ -1519,7 +1519,189 @@
 	<!-- Partner Start -->
 	<x-partners></x-partners>
 	<!-- Partner End -->
+{{-- Rechtliche und regulatorische Informationen --}}
+<section class="py-5">
+    <div class="container">
 
+        <div class="text-center mb-5">
+            <h2 class="fw-bold mb-3">Rechtliche Informationen</h2>
+            <p class="text-muted mb-0">
+                Unternehmensangaben und regulatorische Informationen von Losung Finanz.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            {{-- Unternehmensdaten --}}
+            <div class="col-lg-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body p-4">
+
+                        <h4 class="fw-bold mb-4">
+                            <i class="bi bi-building me-2"></i>
+                            Unternehmensdaten
+                        </h4>
+
+                        <div class="row g-3">
+
+                            <div class="col-sm-6">
+                                <div class="p-3 bg-light rounded">
+                                    <small class="text-muted d-block mb-1">
+                                        SIREN
+                                    </small>
+                                    <strong>421 100 645</strong>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="p-3 bg-light rounded">
+                                    <small class="text-muted d-block mb-1">
+                                        SIRET
+                                    </small>
+                                    <strong>421 100 645 00967</strong>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="p-3 bg-light rounded">
+                                    <small class="text-muted d-block mb-1">
+                                        Handelsregister
+                                    </small>
+                                    <strong>RCS Paris 421 100 645</strong>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="p-3 bg-light rounded">
+                                    <small class="text-muted d-block mb-1">
+                                        Umsatzsteuer-Identifikationsnummer
+                                    </small>
+                                    <strong>FR40 421 100 645</strong>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            {{-- Regulatorische Informationen --}}
+            <div class="col-lg-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body p-4">
+
+                        <h4 class="fw-bold mb-4">
+                            <i class="bi bi-file-earmark-text me-2"></i>
+                            Regulatorische Informationen
+                        </h4>
+
+                        <div class="list-group list-group-flush">
+
+                            <div class="list-group-item px-0 py-3">
+                                <div class="d-flex justify-content-between align-items-start gap-3">
+                                    <span class="text-muted">
+                                        NACE / APE-Code
+                                    </span>
+
+                                    <strong class="text-end">
+                                        64.19Z
+                                    </strong>
+                                </div>
+
+                                <small class="text-muted">
+                                    Sonstige monetäre Finanzintermediation
+                                </small>
+                            </div>
+
+
+                            <div class="list-group-item px-0 py-3">
+                                <div class="d-flex justify-content-between align-items-start gap-3">
+                                    <span class="text-muted">
+                                        Rechtsform
+                                    </span>
+
+                                    <strong class="text-end">
+                                        Société Anonyme
+                                    </strong>
+                                </div>
+                            </div>
+
+
+                            <div class="list-group-item px-0 py-3">
+                                <div class="d-flex justify-content-between align-items-start gap-3">
+                                    <span class="text-muted">
+                                        Gesellschaftskapital
+                                    </span>
+
+                                    <strong class="text-end">
+                                        6.585.350.218 €
+                                    </strong>
+                                </div>
+                            </div>
+
+
+                            <div class="list-group-item px-0 py-3">
+                                <div class="d-flex justify-content-between align-items-start gap-3">
+                                    <span class="text-muted">
+                                        ORIAS-Nummer
+                                    </span>
+
+                                    <strong class="text-end">
+                                        07 023 424
+                                    </strong>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            {{-- Bankverbindung --}}
+            <div class="col-12">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body p-4">
+
+                        <div class="row align-items-center">
+
+                            <div class="col-md-8">
+                                <h4 class="fw-bold mb-2">
+                                    <i class="bi bi-bank me-2"></i>
+                                    Bankverbindung
+                                </h4>
+
+                                <p class="text-muted mb-md-0">
+                                    Bankverbindung des Unternehmens.
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 mt-3 mt-md-0">
+                                <div class="bg-light rounded p-3">
+
+                                    <small class="text-muted d-block mb-1">
+                                        Bank
+                                    </small>
+
+                                    <strong>
+                                        Losung-bk / Banque Postale
+                                    </strong>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 @endsection
 
 @push('scripts')
