@@ -9,7 +9,7 @@ define('SITE_LOGO_NAME', 'Losung Finanz');
 define('SITE_LOGO_PRIMARY', "Losung\u{00A0}");
 define('SITE_LOGO_ACCENT', 'Finanz');
 define('WEBSITE_CREATED_DATE', '2015');
-define('SITE_ADDRESS', 'Pl. Charles Rogier 15, 1210, Saint-Josse-ten-Noode');
+define('SITE_ADDRESS', '25 rue Provence, 75009 Paris');
 
 define('SITE_EMAIL', 'kontakt@losung-finanz.com');
 define('BANQUE_NAME', 'BNP PARIBAS');
