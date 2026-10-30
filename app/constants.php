@@ -4,20 +4,19 @@ define('CHAT_API_KEY', '');
 define('DEFAULT_SITE_LANGUAGE', 'de');
 define('ALLOW_WEBPAGE_LOADER', false);
 
-define('SITE_NAME', 'Losung Finanz');
-define('SITE_LOGO_NAME', 'Losung Finanz');
+define('SITE_NAME', 'Losung Weg');
+define('SITE_LOGO_NAME', 'Losung Weg');
 define('SITE_LOGO_PRIMARY', "Losung\u{00A0}");
-define('SITE_LOGO_ACCENT', 'Finanz');
+define('SITE_LOGO_ACCENT', 'Weg');
 define('WEBSITE_CREATED_DATE', '2015');
 define('SITE_ADDRESS', '25 rue Provence, 75009 Paris');
 
 define('SITE_EMAIL', 'kontakt@losung-finanz.com');
-define('BANQUE_NAME', 'BNP PARIBAS');
 
 define('WEBMASTER_NAME', '');
 define('AUTHOR_NAME', 'Liblik TULLIO');
 define('TEAG', '2%');
-define('LEGAL_FULL_NAME', 'Losung Finanz');
+define('LEGAL_FULL_NAME', 'Losung Weg');
 define('LEGAL_COMPANY_FORM', '');
 define('LEGAL_RCS', '');
 define('LEGAL_SIREN', '');

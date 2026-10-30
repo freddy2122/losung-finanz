@@ -312,12 +312,12 @@
 .jp-calculator-icon{
     width:80px;
     height:80px;
-    background:linear-gradient(135deg, #0B6B3A 0%, #1F8A4C 100%);
+    background:linear-gradient(135deg, #B8860B 0%, #D4A017 100%);
     border-radius:20px;
     display:flex;
     align-items:center;
     justify-content:center;
-    color:#fff;
+    color: #1e293b;
     margin-bottom:24px;
     box-shadow:0 12px 30px rgba(11,107,58,0.3);
 }
@@ -415,9 +415,9 @@
 }
 
 .jp-amount-btn.active{
-    background:#0B6B3A;
-    border-color:#0B6B3A;
-    color:#fff;
+    background:#B8860B;
+    border-color:#B8860B;
+    color: #1e293b;
 }
 
 .jp-range-slider{
@@ -425,7 +425,7 @@
     max-width:100%;
     height:10px;
     border-radius:6px;
-    background:linear-gradient(to right, #0B6B3A 0%, #0B6B3A var(--range-progress, 0%), #e2e8f0 var(--range-progress, 0%), #e2e8f0 100%);
+    background:linear-gradient(to right, #B8860B 0%, #B8860B var(--range-progress, 0%), #e2e8f0 var(--range-progress, 0%), #e2e8f0 100%);
     outline:none;
     -webkit-appearance:none;
     appearance:none;
@@ -440,7 +440,7 @@
     width:28px;
     height:28px;
     border-radius:50%;
-    background:#0B6B3A;
+    background:#B8860B;
     cursor:pointer;
     box-shadow:0 6px 20px rgba(11,107,58,0.4);
     transition:transform 0.2s ease;
@@ -454,7 +454,7 @@
     width:28px;
     height:28px;
     border-radius:50%;
-    background:#0B6B3A;
+    background:#B8860B;
     cursor:pointer;
     border:none;
     box-shadow:0 6px 20px rgba(11,107,58,0.4);
@@ -520,9 +520,9 @@
 }
 
 .jp-duration-btn.active{
-    background:#0B6B3A;
-    border-color:#0B6B3A;
-    color:#fff;
+    background:#B8860B;
+    border-color:#B8860B;
+    color: #1e293b;
 }
 
 .jp-calculator-right{
@@ -596,7 +596,7 @@
 }
 
 .jp-monthly-hero-value{
-    color:#0B6B3A;
+    color:#B8860B;
     font-size:42px;
     font-weight:800;
     line-height:1.1;
@@ -610,7 +610,7 @@
 
 .jp-monthly-hero-note{
     display:block;
-    color:#16a34a;
+    color:#B8860B;
     font-size:13px;
     font-weight:600;
 }
@@ -654,11 +654,11 @@
 }
 
 .jp-result-row-highlight .jp-result-label{
-    color:#0A2E1C;
+    color:#1e293b;
 }
 
 .jp-result-row-highlight .jp-result-value{
-    color:#0B6B3A;
+    color:#B8860B;
     font-size:26px;
 }
 
@@ -744,8 +744,8 @@
     align-items:center;
     justify-content:center;
     gap:12px;
-    background:linear-gradient(135deg, #0B6B3A 0%, #1F8A4C 100%);
-    color:#fff;
+    background:linear-gradient(135deg, #B8860B 0%, #D4A017 100%);
+    color: #1e293b;
     padding:20px 56px;
     border-radius:14px;
     font-weight:800;
@@ -756,7 +756,7 @@
 }
 
 .jp-calculator-btn:hover{
-    background:linear-gradient(135deg, #0A2E1C 0%, #0B6B3A 100%);
+    background:linear-gradient(135deg, #1e293b 0%, #B8860B 100%);
     transform:translateY(-3px);
     box-shadow:0 20px 50px rgba(11,107,58,0.5);
 }
@@ -1045,7 +1045,7 @@
     display:inline-flex;
     align-items:center;
     gap:8px;
-    color:#0B6B3A;
+    color:#B8860B;
     background:#eef9f1;
     border:1px solid #d9f2e3;
     border-radius:999px;
@@ -1091,11 +1091,11 @@
 }
 
 .jp-financing-conditions-example{
-    background:#ecfdf3;
-    border:1px solid #bbf7d0;
-    border-left:4px solid #16a34a;
+    background:#fffbeb;
+    border:1px solid #fde68a;
+    border-left:4px solid #B8860B;
     border-radius:8px;
-    color:#14532d;
+    color:#78350f;
     font-size:16px;
     line-height:1.75;
     padding:18px 20px;
@@ -1118,8 +1118,8 @@
     align-items:center;
     justify-content:center;
     gap:10px;
-    background:#0B6B3A;
-    color:#fff;
+    background:#B8860B;
+    color: #1e293b;
     padding:14px 24px;
     border-radius:999px;
     font-weight:800;
@@ -1129,7 +1129,7 @@
 }
 
 .jp-financing-conditions-btn:hover{
-    background:#0A2E1C;
+    background:#1e293b;
     color:#fff;
     transform:translateY(-2px);
 }
@@ -1287,7 +1287,7 @@
 .jp-trust-card h3{
     font-size:22px;
     font-weight:800;
-    color:#0B6B3A;
+    color:#B8860B;
     margin-bottom:12px;
 }
 
@@ -1520,189 +1520,6 @@
 	<!-- Partner Start -->
 	<x-partners></x-partners>
 	<!-- Partner End -->
-{{-- Rechtliche und regulatorische Informationen --}}
-<section class="py-5">
-    <div class="container">
-
-        <div class="text-center mb-5">
-            <h2 class="fw-bold mb-3">Rechtliche Informationen</h2>
-            <p class="text-muted mb-0">
-                Unternehmensangaben und regulatorische Informationen von Losung Finanz.
-            </p>
-        </div>
-
-        <div class="row g-4">
-
-            {{-- Unternehmensdaten --}}
-            <div class="col-lg-6">
-                <div class="card h-100 border-0 shadow-sm">
-                    <div class="card-body p-4">
-
-                        <h4 class="fw-bold mb-4">
-                            <i class="bi bi-building me-2"></i>
-                            Unternehmensdaten
-                        </h4>
-
-                        <div class="row g-3">
-
-                            <div class="col-sm-6">
-                                <div class="p-3 bg-light rounded">
-                                    <small class="text-muted d-block mb-1">
-                                        SIREN
-                                    </small>
-                                    <strong>421 100 645</strong>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <div class="p-3 bg-light rounded">
-                                    <small class="text-muted d-block mb-1">
-                                        SIRET
-                                    </small>
-                                    <strong>421 100 645 00967</strong>
-                                </div>
-                            </div>
-
-                            <div class="col-12">
-                                <div class="p-3 bg-light rounded">
-                                    <small class="text-muted d-block mb-1">
-                                        Handelsregister
-                                    </small>
-                                    <strong>RCS Paris 421 100 645</strong>
-                                </div>
-                            </div>
-
-                            <div class="col-12">
-                                <div class="p-3 bg-light rounded">
-                                    <small class="text-muted d-block mb-1">
-                                        Umsatzsteuer-Identifikationsnummer
-                                    </small>
-                                    <strong>FR40 421 100 645</strong>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-            {{-- Regulatorische Informationen --}}
-            <div class="col-lg-6">
-                <div class="card h-100 border-0 shadow-sm">
-                    <div class="card-body p-4">
-
-                        <h4 class="fw-bold mb-4">
-                            <i class="bi bi-file-earmark-text me-2"></i>
-                            Regulatorische Informationen
-                        </h4>
-
-                        <div class="list-group list-group-flush">
-
-                            <div class="list-group-item px-0 py-3">
-                                <div class="d-flex justify-content-between align-items-start gap-3">
-                                    <span class="text-muted">
-                                        NACE / APE-Code
-                                    </span>
-
-                                    <strong class="text-end">
-                                        64.19Z
-                                    </strong>
-                                </div>
-
-                                <small class="text-muted">
-                                    Sonstige monetäre Finanzintermediation
-                                </small>
-                            </div>
-
-
-                            <div class="list-group-item px-0 py-3">
-                                <div class="d-flex justify-content-between align-items-start gap-3">
-                                    <span class="text-muted">
-                                        Rechtsform
-                                    </span>
-
-                                    <strong class="text-end">
-                                        Société Anonyme
-                                    </strong>
-                                </div>
-                            </div>
-
-
-                            <div class="list-group-item px-0 py-3">
-                                <div class="d-flex justify-content-between align-items-start gap-3">
-                                    <span class="text-muted">
-                                        Gesellschaftskapital
-                                    </span>
-
-                                    <strong class="text-end">
-                                        6.585.350.218 €
-                                    </strong>
-                                </div>
-                            </div>
-
-
-                            <div class="list-group-item px-0 py-3">
-                                <div class="d-flex justify-content-between align-items-start gap-3">
-                                    <span class="text-muted">
-                                        ORIAS-Nummer
-                                    </span>
-
-                                    <strong class="text-end">
-                                        07 023 424
-                                    </strong>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-            {{-- Bankverbindung --}}
-            <div class="col-12">
-                <div class="card border-0 shadow-sm">
-                    <div class="card-body p-4">
-
-                        <div class="row align-items-center">
-
-                            <div class="col-md-8">
-                                <h4 class="fw-bold mb-2">
-                                    <i class="bi bi-bank me-2"></i>
-                                    Bankverbindung
-                                </h4>
-
-                                <p class="text-muted mb-md-0">
-                                    Bankverbindung des Unternehmens.
-                                </p>
-                            </div>
-
-                            <div class="col-md-4 mt-3 mt-md-0">
-                                <div class="bg-light rounded p-3">
-
-                                    <small class="text-muted d-block mb-1">
-                                        Bank
-                                    </small>
-
-                                    <strong>
-                                        Losung-bk / Banque Postale
-                                    </strong>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
 @endsection
 
 @push('scripts')

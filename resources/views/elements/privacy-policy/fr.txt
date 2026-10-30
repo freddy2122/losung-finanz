@@ -1,7 +1,7 @@
 <h2>Responsable du traitement</h2>
 <p>
 	<b>Responsable de traitement :</b> (AUTHOR_NAME)<br>
-	<b>Éditeur du site :</b> BNP PARIBAS<br>
+	<b>Éditeur du site :</b> (WEBSITE_NAME)<br>
 	<b>Adresse :</b> (WEBSITE_ADDRESS)<br>
 	<b>Email :</b> (WEBSITE_EMAIL)
 </p>

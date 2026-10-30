@@ -126,8 +126,8 @@
             align-items: center;
             justify-content: center;
             border-radius: 999px;
-            background: #16a34a;
-            color: #ffffff;
+            background: #B8860B;
+            color: #1e293b;
             font-size: 14px;
             font-weight: 900;
         }
@@ -144,12 +144,12 @@
         }
 
         .loan-progress-item.active {
-            color: #14532d;
+            color: #78350f;
         }
 
         .loan-progress-item.active .loan-progress-number {
-            background: #16a34a;
-            color: #ffffff;
+            background: #B8860B;
+            color: #1e293b;
         }
 
         .loan-progress-item.done {
@@ -163,7 +163,7 @@
 
         .loan-progress-item.done::before,
         .loan-progress-item.active::before {
-            background: linear-gradient(90deg, #0f172a 0%, #16a34a 100%);
+            background: linear-gradient(90deg, #0f172a 0%, #B8860B 100%);
         }
 
         .loan-step-head {
@@ -176,8 +176,8 @@
         .loan-step-kicker {
             display: inline-block;
             font-size: 13px;
-            color: #15803d;
-            background: #ecfdf3;
+            color: #78350f;
+            background: #fffbeb;
             padding: 5px 10px;
             border-radius: 999px;
             font-weight: 800;
@@ -328,8 +328,8 @@
         .loan-mini-tag {
             display: inline-block;
             font-size: 13px;
-            color: #15803d;
-            background: #ecfdf3;
+            color: #78350f;
+            background: #fffbeb;
             padding: 6px 12px;
             border-radius: 999px;
             font-weight: 700;
@@ -442,7 +442,7 @@
         }
 
         .loan-checkbox-wrap a:hover {
-            color: #0B6B3A;
+            color: #B8860B;
         }
 
         .loan-form-legal-footer {
@@ -468,7 +468,7 @@
         }
 
         .loan-form-legal-footer a:hover {
-            color: #0B6B3A;
+            color: #B8860B;
         }
 
         .amount-grid,
@@ -493,15 +493,15 @@
 
         .amount-btn:hover,
         .duration-btn:hover {
-            border-color: #16a34a;
+            border-color: #B8860B;
             background: #f0fdf4;
         }
 
         .amount-btn.active,
         .duration-btn.active {
-            background: #16a34a;
-            color: #ffffff;
-            border-color: #16a34a;
+            background: #B8860B;
+            color: #1e293b;
+            border-color: #B8860B;
             box-shadow: 0 6px 16px rgba(22,163,74,0.25);
         }
 
@@ -856,7 +856,7 @@
                                     <div class="loan-live-item">
                                         <span class="loan-live-label">{{ translate(478) }}</span>
                                         <div class="loan-live-value" id="liveMensualite">—</div>
-                                        <p style="font-size:13px;color:#16a34a;font-weight:600;margin-top:6px;margin-bottom:0;">
+                                        <p style="font-size:13px;color:#B8860B;font-weight:600;margin-top:6px;margin-bottom:0;">
                                             {{ loan_page_text('instant_calculation') }}
                                         </p>
                                     </div>
@@ -869,7 +869,7 @@
 
                                 <p class="loan-live-note">{{ translate(480) }}</p>
 
-<p style="margin-top:10px;font-size:14px;font-weight:700;color:#16a34a;">
+<p style="margin-top:10px;font-size:14px;font-weight:700;color:#B8860B;">
     🔥 {{ translate(487) }}
 </p>
                             </div>

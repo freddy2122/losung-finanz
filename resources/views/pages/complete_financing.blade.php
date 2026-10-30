@@ -127,7 +127,7 @@
 }
 
 .form-control:focus {
-    border-color: #0B6B3A;
+    border-color: #B8860B;
     box-shadow: 0 0 0 3px rgba(11,107,58,0.1);
 }
 
@@ -162,8 +162,8 @@
 }
 
 .btn-primary {
-    background: #0B6B3A;
-    color: #fff;
+    background: #B8860B;
+    color: #1e293b;
     padding: 14px 32px;
     border: none;
     border-radius: 8px;
@@ -174,7 +174,7 @@
 }
 
 .btn-primary:hover {
-    background: #0A2E1C;
+    background: #1e293b;
     transform: translateY(-2px);
 }
 
