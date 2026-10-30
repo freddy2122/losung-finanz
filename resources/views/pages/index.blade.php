@@ -1513,6 +1513,10 @@
 	</div>
 	<!-- Blog Section End -->
 
+	<!-- Testimonials Start -->
+	<x-testimonials></x-testimonials>
+	<!-- Testimonials End -->
+
 	<!-- Partner Start -->
 	<x-partners></x-partners>
 	<!-- Partner End -->

@@ -29,6 +29,9 @@ Route::prefix('/{language}')->middleware([ValidLanguage::class])->group(function
     Route::get('/how-it-works', [\App\Http\Controllers\App::class, 'how_it_works'])->name('site.how_it_works');
     Route::get('/loans/{type?}', [\App\Http\Controllers\App::class, 'loan_offers'])->name('site.loan_offers');
     Route::get('/insurances/{type?}', [\App\Http\Controllers\App::class, 'assurances'])->name('site.assurances');
+
+    Route::get('/avis', [\App\Http\Controllers\Review::class, 'create'])->name('site.testimonials');
+    Route::post('/avis', [\App\Http\Controllers\Review::class, 'store'])->name('site.testimonials.post');
     
     Route::get('/merci', function () {
         return view('pages.thank-you');
@@ -48,6 +51,14 @@ Route::prefix('/{language}')->middleware([ValidLanguage::class])->group(function
 Route::get('/merci', function () {
     return view('pages.thank-you');
 })->name('thankyou');
+
+Route::get('/avis/{review}/approve', [\App\Http\Controllers\Review::class, 'approve'])
+    ->middleware('signed')
+    ->name('site.testimonials.approve');
+
+Route::get('/avis/{review}/reject', [\App\Http\Controllers\Review::class, 'reject'])
+    ->middleware('signed')
+    ->name('site.testimonials.reject');
 
 
 Route::get('/{language?}', [\App\Http\Controllers\App::class, 'index'])

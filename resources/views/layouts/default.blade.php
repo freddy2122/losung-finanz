@@ -172,6 +172,10 @@
                                                 </li>
                                                 <li>
                                                     <a
+                                                        href="{{ routeWithLocale('site.testimonials') }}">{{ translate(84) }}</a>
+                                                </li>
+                                                <li>
+                                                    <a
                                                         href="{{ routeWithLocale('site.contact_us') }}">{{ translate(73) }}</a>
                                                 </li>
                                             </ul> <!-- //.nav-menu -->
@@ -301,6 +305,9 @@
                         <li class="menu-item-has-children">
                             <a href="{{ routeWithLocale('site.assurances') }}">{{ translate(311) }}</a>
                             <x-insurances-listing class="sub-menu"></x-insurances-listing>
+                        </li>
+                        <li>
+                            <a href="{{ routeWithLocale('site.testimonials') }}">{{ translate(84) }}</a>
                         </li>
                         <li>
                             <a href="{{ routeWithLocale('site.contact_us') }}">{{ translate(73) }}</a>
