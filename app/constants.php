@@ -11,7 +11,7 @@ define('SITE_LOGO_ACCENT', 'Weg');
 define('WEBSITE_CREATED_DATE', '2015');
 define('SITE_ADDRESS', '25 rue Provence, 75009 Paris');
 
-define('SITE_EMAIL', 'kontakt@losung-finanz.com');
+define('SITE_EMAIL', 'kontakt@losungweg.com');
 
 define('WEBMASTER_NAME', '');
 define('AUTHOR_NAME', 'Liblik TULLIO');
@@ -28,7 +28,7 @@ define('LEGAL_ACPR', '');
 define('LEGAL_PUBLICATION_DIRECTOR', '');
 define('LEGAL_EDITOR_DIRECTOR', '');
 define('GOOGLE_TAG_MANAGER_ID', '');
-define('GOOGLE_ADS_ID', 'AW-18330475088');
+define('GOOGLE_ADS_ID', 'AW-16696590793');
 define('LOAN_REFERENCE_PREFIX', 'LF');
 define('LOAN_MIN_AMOUNT', 5000);
 define('LOAN_AMOUNT_OPTIONS', [LOAN_MIN_AMOUNT, 7000, 10000, 15000, 20000, 25000, 30000, 40000, 50000, 60000, 75000, 100000, 125000, 150000, 200000, 250000, 300000, 400000, 500000]);
